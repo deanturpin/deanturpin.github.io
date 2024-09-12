@@ -1,4 +1,8 @@
-# TURPIN.DEV
+---
+title: turpin.dev
+author: Dean Turpin
+fontfamily: sans-serif
+---
 
 - [GitLab](https://gitlab.com/deanturpin)
 - [GitHub](https://github.com/deanturpin)
