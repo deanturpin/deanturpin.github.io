@@ -14,7 +14,8 @@ plugins:
 
 # theme: jekyll-theme-slate
 # remote_theme: daattali/beautiful-jekyll
-remote_theme: jeffreytse/jekyll-theme-yat
+# remote_theme: jeffreytse/jekyll-theme-yat
+remote_them: ngzhio/jekyll-theme-hamilton/
 
 # paginate: 10
 # paginate_path: "/page:num/"
