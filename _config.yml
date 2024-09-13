@@ -6,9 +6,10 @@ author: "Dean Turpin"
 # baseurl: "" # Change to "/project-name" if it's a project site
 
 # Site settings
-theme: minima
-paginate: 10
-paginate_path: "/page:num/"
+# theme: minima
+remote_theme: aterenin/minima-reboot
+# paginate: 10
+# paginate_path: "/page:num/"
 
 # Plugins
 # plugins:
