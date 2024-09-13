@@ -1,7 +1,7 @@
-title: "turpin.dev"
+title: "Dean Turpin"
 # description: "Sometimes more is more"
-author: "Dean Turpin"
-
+description: "turpin.dev"
+# author: "Dean Turpin"
 # email: tbd
 # url: "https://your-username.github.io"
 # baseurl: "" # Change to "/project-name" if it's a project site
@@ -9,7 +9,7 @@ author: "Dean Turpin"
 # Theme examples here:
 # https://641n.github.io/architect/
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-modernist
 
 # paginate: 10
 # paginate_path: "/page:num/"
@@ -23,6 +23,6 @@ theme: jekyll-theme-merlot
 # permalink: /:categories/:year/:month/:day/:title/
 
 # Markdown settings
-markdown: kramdown
-kramdown:
-  input: GFM
+# markdown: kramdown
+# kramdown:
+#   input: GFM
