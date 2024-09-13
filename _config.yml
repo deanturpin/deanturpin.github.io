@@ -6,11 +6,14 @@ author: "Dean Turpin"
 # baseurl: "" # Change to "/project-name" if it's a project site
 
 # Site settings
-# theme: minima
+theme: minima
 # remote_theme: aterenin/minima-reboot
 # paginate: 10
 # paginate_path: "/page:num/"
-
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
+  
 # Plugins
 # plugins:
 #   - jekyll-feed
