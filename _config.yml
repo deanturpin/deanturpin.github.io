@@ -5,10 +5,13 @@
 # url: "https://your-username.github.io"
 # baseurl: "" # Change to "/project-name" if it's a project site
 
+# Theme examples here:
+# 
+
 # Site settings
 # theme: minima
 # theme: architect
-theme: cayman
+theme: jekyll-theme-dinky
 # theme: minima
 # theme: minima
 # theme: minima
