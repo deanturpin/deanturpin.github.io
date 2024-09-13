@@ -9,7 +9,11 @@ description: "turpin.dev"
 # Theme examples here:
 # https://641n.github.io/architect/
 
-theme: jekyll-theme-slate
+plugins:
+  - jekyll-remote-theme # Needed for using remote themes
+
+# theme: jekyll-theme-slate
+remote_theme: chesterhow/tale
 
 # paginate: 10
 # paginate_path: "/page:num/"
