@@ -7,7 +7,7 @@ author: "Dean Turpin"
 
 # Site settings
 # theme: minima
-remote_theme: aterenin/minima-reboot
+# remote_theme: aterenin/minima-reboot
 # paginate: 10
 # paginate_path: "/page:num/"
 
