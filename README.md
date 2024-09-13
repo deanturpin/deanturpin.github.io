@@ -1,33 +1,18 @@
-
 - [GitLab](https://gitlab.com/deanturpin)
 - [GitHub](https://github.com/deanturpin)
 - [LinkedIn](https://www.linkedin.com/in/deanturpin)
 - [Docker hub](https://hub.docker.com/u/deanturpin)
 
-<h2>MIXCLOUD</h2>
-
-Emdedded widget tests.
-
-<h3>Mini widget</h3>
-
-<iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
-
-<h3>Classic widget</h3>
-
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
-
-<h3>Picture widget</h3>
-
-<iframe width="100%" height="400" src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
-
-## Currently reading
+## Read
 
 - [The Climate Book](https://www.amazon.co.uk/gp/product/0241547474/) -- Greta Thunberg
 - [The Art of Writing Efficient Programs](https://www.amazon.co.uk/Art-Writing-Efficient-Programs-optimizations/dp/1800208111/) -- Fedor G. Pikus
 
-<!--
+## Listen
 
-## Projects
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
+
+## Code
 
 | Title | Description |
 |-|-|
@@ -45,6 +30,8 @@ Emdedded widget tests.
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://deanturpin.gitlab.io/ev/) | Common misconceptions |
 
+
+Fri 13 Sep 2024 08:48:33 BST
 
 [![germs-dev/concurrency-support-library](https://gitlab.com/germs-dev/concurrency-support-library/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/concurrency-support-library/-/pipelines) 
 [![germs-dev/cpp](https://gitlab.com/germs-dev/cpp/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/cpp/-/pipelines) 
@@ -73,5 +60,3 @@ Emdedded widget tests.
 [![deanturpin/ev](https://gitlab.com/deanturpin/ev/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/ev/-/pipelines) 
 [![deanturpin/constd](https://gitlab.com/deanturpin/constd/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/constd/-/pipelines) 
 [![deanturpin/cmake-external-project](https://gitlab.com/deanturpin/cmake-external-project/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/cmake-external-project/-/pipelines) 
-
--->
