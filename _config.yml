@@ -7,8 +7,8 @@ author: "Dean Turpin"
 
 # Site settings
 # theme: minima
-theme: architect
-# theme: minima
+# theme: architect
+theme: cayman
 # theme: minima
 # theme: minima
 # theme: minima
@@ -16,9 +16,6 @@ theme: architect
 # remote_theme: aterenin/minima-reboot
 # paginate: 10
 # paginate_path: "/page:num/"
-minima:
-  skin: dark
-  date_format: "%b %-d, %Y"
 
 # Plugins
 # plugins:
