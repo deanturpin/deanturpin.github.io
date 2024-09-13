@@ -6,17 +6,10 @@
 # baseurl: "" # Change to "/project-name" if it's a project site
 
 # Theme examples here:
-# 
+# https://641n.github.io/architect/
 
-# Site settings
-# theme: minima
-# theme: architect
-theme: jekyll-theme-dinky
-# theme: minima
-# theme: minima
-# theme: minima
-# theme: minima
-# remote_theme: aterenin/minima-reboot
+theme: jekyll-theme-merlot
+
 # paginate: 10
 # paginate_path: "/page:num/"
 
