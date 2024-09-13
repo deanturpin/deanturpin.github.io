@@ -9,7 +9,7 @@ description: "turpin.dev"
 # Theme examples here:
 # https://641n.github.io/architect/
 
-theme: jekyll-theme-modernist
+theme: jekyll-theme-slate
 
 # paginate: 10
 # paginate_path: "/page:num/"
@@ -23,6 +23,6 @@ theme: jekyll-theme-modernist
 # permalink: /:categories/:year/:month/:day/:title/
 
 # Markdown settings
-# markdown: kramdown
-# kramdown:
-#   input: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
