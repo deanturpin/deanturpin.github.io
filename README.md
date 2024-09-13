@@ -60,3 +60,8 @@ Fri 13 Sep 2024 08:48:33 BST
 [![deanturpin/ev](https://gitlab.com/deanturpin/ev/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/ev/-/pipelines) 
 [![deanturpin/constd](https://gitlab.com/deanturpin/constd/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/constd/-/pipelines) 
 [![deanturpin/cmake-external-project](https://gitlab.com/deanturpin/cmake-external-project/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/cmake-external-project/-/pipelines) 
+
+
+## Skills timeline
+
+![skills timeline](https://skills.turpin.dev/skills.png)
