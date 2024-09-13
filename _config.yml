@@ -1,0 +1,24 @@
+title: "turpin.dev"
+description: "Sometimes more is more"
+author: "Dean Turpin"
+# email: tbd
+# url: "https://your-username.github.io"
+# baseurl: "" # Change to "/project-name" if it's a project site
+
+# Site settings
+theme: minima
+paginate: 10
+paginate_path: "/page:num/"
+
+# Plugins
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+
+# Permalink settings
+# permalink: /:categories/:year/:month/:day/:title/
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
