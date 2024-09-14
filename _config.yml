@@ -13,7 +13,7 @@ description: "turpin.dev"
 #   - jekyll-remote-theme # Needed for using remote themes
 # remote_theme: daattali/beautiful-jekyll
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-merlot
 
 # paginate: 10
 # paginate_path: "/page:num/"
