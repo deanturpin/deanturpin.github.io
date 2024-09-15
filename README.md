@@ -66,4 +66,4 @@
 
 ## Skills
 
-![skills timeline](https://skills.turpin.dev/skills.png)
+![[skills timeline](https://skills.turpin.dev/skills.png)](https://skills.turpin.dev/skills.png)
