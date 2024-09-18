@@ -30,7 +30,7 @@
 | [Teach yourself C++ in 45 years](https://germs-dev.gitlab.io/cs/) | Survival guide for C++/Linux devs |
 | [Online logbook](https://germs.dev/) | Curated since 2009 |
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
-| [EV myths](https://deanturpin.gitlab.io/ev/) | Common misconceptions |
+| [EV myths](https://turpin.dev/ev/) | Common misconceptions |
 
 
 # Pipes
