@@ -15,7 +15,7 @@
 | Title | Description |
 |-|-|
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
-| [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container build from source |
+| [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container from source |
 | [deanturpin/dev](https://hub.docker.com/r/deanturpin/dev) | C++ dev container |
 | [constd](https://deanturpin.gitlab.io/constd/) | `constexpr` Standard Library functions |
 | [Trading backtester (stocks)](https://deanturpin.gitlab.io/backtest/) | Backtester 2024 |
@@ -23,7 +23,7 @@
 | [std::thread](https://germs-dev.gitlab.io/concurrency-support-library/) | C++ Concurrency Support Library |
 | [The Plotting Parlour](https://germs-dev.gitlab.io/dft/) | Discrete Fourier transforms |
 | [C++ recipes](https://germs-dev.gitlab.io/cpp/) | C++ idioms and good practice |
-| [Teach yourself C++ in 45 years](https://germs-dev.gitlab.io/cs/) | Survival guide for C++/Linux devs |
+| [Learn C++ in 45 years](https://germs-dev.gitlab.io/cs/) | Survival guide for C++/Linux devs |
 | [Online logbook](https://germs.dev/) | Curated since 2009 |
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
