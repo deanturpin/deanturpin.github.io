@@ -5,22 +5,12 @@
 - [LinkedIn](https://www.linkedin.com/in/deanturpin)
 - [Docker hub](https://hub.docker.com/u/deanturpin)
 
-## Read
+## Currently reading
 
 - [The Climate Book](https://www.amazon.co.uk/gp/product/0241547474/) -- Greta Thunberg
 - [The Art of Writing Efficient Programs](https://www.amazon.co.uk/Art-Writing-Efficient-Programs-optimizations/dp/1800208111/) -- Fedor G. Pikus
 
-## Listen
-
-### Bandcamp
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1491515808/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://deanturbeaux.bandcamp.com/track/made-in-black-featuring-phil-mills">Made in Black featuring Phil Mills by Dean Turbeaux</a></iframe>
-
-### Mixcloud
-
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
-
-## Code
+## Side hustles
 
 | Title | Description |
 |-|-|
@@ -28,7 +18,7 @@
 | [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container build from source |
 | [deanturpin/dev](https://hub.docker.com/r/deanturpin/dev) | C++ dev container |
 | [constd](https://deanturpin.gitlab.io/constd/) | `constexpr` Standard Library functions |
-| [Trading backtester (stocks)](https://deanturpin.gitlab.io/backtest/) | Backtester 2024 (modules and constexpr) |
+| [Trading backtester (stocks)](https://deanturpin.gitlab.io/backtest/) | Backtester 2024 |
 | [Trading backtester (crypto)](https://cpp.run/) | Backtester from scratch |
 | [std::thread](https://germs-dev.gitlab.io/concurrency-support-library/) | C++ Concurrency Support Library |
 | [The Plotting Parlour](https://germs-dev.gitlab.io/dft/) | Discrete Fourier transforms |
@@ -38,8 +28,15 @@
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
 
+## Bandcamp
 
-# Pipes
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1491515808/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://deanturbeaux.bandcamp.com/track/made-in-black-featuring-phil-mills">Made in Black featuring Phil Mills by Dean Turbeaux</a></iframe>
+
+## Mixcloud
+
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
+
+## Pipes
 
 [![germs-dev/concurrency-support-library](https://gitlab.com/germs-dev/concurrency-support-library/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/concurrency-support-library/-/pipelines) 
 [![germs-dev/cpp](https://gitlab.com/germs-dev/cpp/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/cpp/-/pipelines) 
@@ -68,7 +65,6 @@
 [![deanturpin/ev](https://gitlab.com/deanturpin/ev/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/ev/-/pipelines) 
 [![deanturpin/constd](https://gitlab.com/deanturpin/constd/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/constd/-/pipelines) 
 [![deanturpin/cmake-external-project](https://gitlab.com/deanturpin/cmake-external-project/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/cmake-external-project/-/pipelines) 
-
 
 ## Skills
 
