@@ -1,7 +1,7 @@
 ## Links
 
-- [GitLab](https://gitlab.com/deanturpin)
 - [GitHub](https://github.com/deanturpin)
+- [GitLab](https://gitlab.com/deanturpin)
 - [LinkedIn](https://www.linkedin.com/in/deanturpin)
 - [Docker hub](https://hub.docker.com/u/deanturpin)
 
