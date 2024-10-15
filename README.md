@@ -27,6 +27,7 @@
 | [Online logbook](https://germs.dev/) | Curated since 2009 |
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
+| [Brighton events](https://turpin.dev/brighton/) | Things to see and do |
 
 ## Bandcamp
 
@@ -56,7 +57,6 @@
 [![germs-dev/mews-one](https://gitlab.com/germs-dev/mews-one/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/mews-one/-/pipelines) 
 [![germs-dev/brighton](https://gitlab.com/germs-dev/brighton/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/brighton/-/pipelines) 
 [![deanturpin/deanturpin](https://gitlab.com/deanturpin/deanturpin/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/deanturpin/-/pipelines) 
-[![deanturpin/the-brighton-watch](https://gitlab.com/deanturpin/the-brighton-watch/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/the-brighton-watch/-/pipelines) 
 [![deanturpin/idrawhouses](https://gitlab.com/deanturpin/idrawhouses/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/idrawhouses/-/pipelines) 
 [![deanturpin/recipes2](https://gitlab.com/deanturpin/recipes2/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/recipes2/-/pipelines) 
 [![germs-dev/dft](https://gitlab.com/germs-dev/dft/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/dft/-/pipelines) 
