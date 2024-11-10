@@ -29,6 +29,17 @@
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
 | [Brighton events](https://turpin.dev/brighton/) | Things to see and do |
 
+## Studio setup
+
+- BeyerDynamic DT 770 Pro Limited Edition
+- BeyerDynamic DT 1770 Pro
+- Bose QuietComfort 
+- MacBook Air M3
+- Volt audio interface
+- Roland 303 Groovebox
+- Roland TB-03
+- MicroKorg
+
 ## Bandcamp
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1491515808/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://deanturbeaux.bandcamp.com/track/made-in-black-featuring-phil-mills">Made in Black featuring Phil Mills by Dean Turbeaux</a></iframe>
