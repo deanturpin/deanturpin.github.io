@@ -39,6 +39,7 @@
 - Roland 303 Groovebox
 - Roland TB-03
 - MicroKorg
+- Akai midimix
 
 ## Bandcamp
 
