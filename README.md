@@ -1,3 +1,94 @@
+
+<div class="timer-container">
+    <h1>Meeting Cost Timer</h1>
+    <label for="participants">Number of Participants:</label>
+    <select id="participants">
+        <option value="1">1 Participant</option>
+        <option value="2">2 Participants</option>
+        <option value="3">3 Participants</option>
+        <option value="4">4 Participants</option>
+        <option value="5">5 Participants</option>
+        <option value="10">10 Participants</option>
+    </select>
+    <div id="elapsed">Elapsed Time: 00:00:00</div>
+    <div id="cost">£0.000</div>
+    <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn" disabled>Pause</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+</div>
+<script>
+    let timer = null;
+    let elapsedMilliseconds = 0;
+    let isRunning = false;
+    const salaryPerMillisecond = 50000 / (365 * 24 * 60 * 60 * 1000); // Average salary per millisecond for one participant
+    const costDisplay = document.getElementById('cost');
+    const elapsedDisplay = document.getElementById('elapsed');
+    const participantsSelect = document.getElementById('participants');
+    const startBtn = document.getElementById('startBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const resetBtn = document.getElementById('resetBtn');
+
+    function calculateCost() {
+        const participants = parseInt(participantsSelect.value);
+        return elapsedMilliseconds * salaryPerMillisecond * participants; // Convert to thousands
+    }
+
+    function formatTime(milliseconds) {
+        const totalSeconds = Math.floor(milliseconds / 1000);
+        const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, '0');
+        const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+        const seconds = String(totalSeconds % 60).padStart(2, '0');
+        return `${hours}:${minutes}:${seconds}`;
+    }
+
+    function updateDisplay() {
+        const cost = calculateCost();
+        costDisplay.textContent = `£${cost.toFixed(2)}`;
+        elapsedDisplay.textContent = `Elapsed Time: ${formatTime(elapsedMilliseconds)}`;
+    }
+
+    function startTimer() {
+        if (!isRunning) {
+            isRunning = true;
+            startBtn.disabled = true;
+            pauseBtn.disabled = false;
+            timer = setInterval(() => {
+                elapsedMilliseconds += 1000; // Update every 100 ms
+                updateDisplay();
+            }, 1000);
+        }
+    }
+
+    function pauseTimer() {
+        if (isRunning) {
+            isRunning = false;
+            startBtn.disabled = false;
+            pauseBtn.disabled = true;
+            clearInterval(timer);
+        }
+    }
+
+    function resetTimer() {
+        isRunning = false;
+        clearInterval(timer);
+        elapsedMilliseconds = 0;
+        updateDisplay();
+        startBtn.disabled = false;
+        pauseBtn.disabled = true;
+    }
+
+    // Event Listeners
+    startBtn.addEventListener('click', startTimer);
+    pauseBtn.addEventListener('click', pauseTimer);
+    resetBtn.addEventListener('click', resetTimer);
+    participantsSelect.addEventListener('change', updateDisplay);
+
+    // Initialize display
+    updateDisplay();
+</script>
+
 ## Links
 
 - [GitHub](https://github.com/deanturpin)
@@ -31,15 +122,13 @@
 
 ## Studio setup
 
-- BeyerDynamic DT 770 Pro Limited Edition
-- BeyerDynamic DT 1770 Pro
-- Bose QuietComfort 
+- BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro
 - MacBook Air M3
 - Volt audio interface
 - Roland 303 Groovebox
 - Roland TB-03
 - MicroKorg
-- Akai midimix
+- [Akai MIDImix](https://www.akaipro.com/midimix)
 
 ## Bandcamp
 

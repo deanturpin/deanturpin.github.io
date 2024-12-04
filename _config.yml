@@ -1,32 +1,10 @@
 title: "Dean Turpin"
-# description: "Sometimes more is more"
-description: "turpin.dev"
-# author: "Dean Turpin"
-# email: tbd
-# url: "https://your-username.github.io"
-# baseurl: "" # Change to "/project-name" if it's a project site
-
-# Theme examples here:
-# https://641n.github.io/architect/
-
-# plugins:
-#   - jekyll-remote-theme # Needed for using remote themes
-# remote_theme: daattali/beautiful-jekyll
-
+description: "Sometimes more is more"
+author: "Dean Turpin"
+url: "https://deanturpin.github.io"
 theme: jekyll-theme-merlot
 
-# paginate: 10
-# paginate_path: "/page:num/"
-
-# Plugins
-# plugins:
-#   - jekyll-feed
-#   - jekyll-seo-tag
-
-# Permalink settings
-# permalink: /:categories/:year/:month/:day/:title/
-
-# Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
+  
