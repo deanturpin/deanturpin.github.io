@@ -9,16 +9,16 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5" selected>5</option>
+        <option value="5">5</option>
         <option value="10">10</option>
         <option value="20">20</option>
     </select> </select>
     <div id="elapsed">Elapsed Time: 00:00:00</div>
-    <!-- <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
-        <button id="startBtn">Start</button>
+    <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
+        <!-- <button id="startBtn">Start</button>
         <button id="pauseBtn" disabled>Pause</button>
-        <button id="resetBtn">Reset</button>
-    </div> -->
+        <button id="resetBtn">Reset</button> -->
+    </div>
 </div>
 <script>
     let timer = null;
@@ -90,10 +90,13 @@
     // Initialize display
     <!-- updateDisplay(); -->
 
-    timer = setInterval(() => {
-        elapsedMilliseconds += 1000; // Update every 100 ms
+    document.addEventListener('DOMContentLoaded', () => {
+        // Initialize display
         updateDisplay();
-    }, 1000);
+
+        // Start the timer automatically when the page loads
+        startTimer();
+    });
 
 </script>
 
