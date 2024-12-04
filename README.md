@@ -1,5 +1,5 @@
 
-## How much is this meeting costing?
+## This meeting cost how much?
 
 <div class="timer-container" style="text-align: center;">
     <label for="participants">Participants:</label>
