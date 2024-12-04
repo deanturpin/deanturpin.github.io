@@ -89,6 +89,8 @@
 
     // Initialize display
     updateDisplay();
+
+    window.addEventListener('load', startTimer);
 </script>
 
 ## Links
