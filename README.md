@@ -1,16 +1,17 @@
 
 ## How much is this meeting costing?
 
-<div class="timer-container">
+<div class="timer-container" style="text-align: center;">
     <label for="participants">Number of Participants:</label>
     <select id="participants">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5</option>
+        <option value="5" selected>5</option>
         <option value="10">10</option>
         <option value="20">20</option>
+        <option value="50">50</option>
     </select>
     <div id="elapsed">Elapsed Time: 00:00:00</div>
     <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
