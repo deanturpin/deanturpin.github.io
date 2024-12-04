@@ -15,9 +15,9 @@
     </select> </select>
     <div id="elapsed">Elapsed Time: 00:00:00</div>
     <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
-        <!-- <button id="startBtn">Start</button>
+        <button id="startBtn">Start</button>
         <button id="pauseBtn" disabled>Pause</button>
-        <button id="resetBtn">Reset</button> -->
+        <button id="resetBtn">Reset</button>
     </div>
 </div>
 <script>
@@ -88,15 +88,15 @@
     participantsSelect.addEventListener('change', updateDisplay);
 
     // Initialize display
-    <!-- updateDisplay(); -->
+    updateDisplay();
 
-    document.addEventListener('DOMContentLoaded', () => {
+    <!-- document.addEventListener('DOMContentLoaded', () => {
         // Initialize display
         updateDisplay();
 
         // Start the timer automatically when the page loads
         startTimer();
-    });
+    }); -->
 
 </script>
 
