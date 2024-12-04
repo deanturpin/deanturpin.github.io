@@ -1,7 +1,5 @@
 title: "Dean Turpin"
-description: "Sometimes more is more"
-author: "Dean Turpin"
-url: "https://deanturpin.github.io"
+description: "sometimes more is more"
 theme: jekyll-theme-merlot
 
 markdown: kramdown
