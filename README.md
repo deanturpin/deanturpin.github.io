@@ -2,7 +2,7 @@
 ## How much is this meeting costing?
 
 <div class="timer-container" style="text-align: center;">
-    <label for="participants">Number of Participants:</label>
+    <label for="participants">Participants:</label>
     <select id="participants">
         <option value="1">1</option>
         <option value="2">2</option>
@@ -13,7 +13,7 @@
         <option value="20">20</option>
         <option value="50">50</option>
     </select>
-    <div id="elapsed">Elapsed Time: 00:00:00</div>
+    <div id="elapsed">00:00:00</div>
     <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
         <button id="startBtn">Start</button>
         <button id="pauseBtn" disabled>Pause</button>
@@ -48,7 +48,7 @@
     function updateDisplay() {
         const cost = calculateCost();
         costDisplay.textContent = `£${cost.toFixed(2)}`;
-        elapsedDisplay.textContent = `Elapsed Time: ${formatTime(elapsedMilliseconds)}`;
+        elapsedDisplay.textContent = `${formatTime(elapsedMilliseconds)}`;
     }
 
     function startTimer() {
@@ -92,6 +92,8 @@
 
     window.addEventListener('load', startTimer);
 </script>
+
+___
 
 ## Links
 
