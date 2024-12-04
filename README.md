@@ -93,8 +93,6 @@
     window.addEventListener('load', startTimer);
 </script>
 
-___
-
 ## Links
 
 - [GitHub](https://github.com/deanturpin)
