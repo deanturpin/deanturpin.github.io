@@ -3,16 +3,16 @@
     <h1>Meeting Cost Timer</h1>
     <label for="participants">Number of Participants:</label>
     <select id="participants">
-        <option value="1">1 Participant</option>
-        <option value="2">2 Participants</option>
-        <option value="3">3 Participants</option>
-        <option value="4">4 Participants</option>
-        <option value="5">5 Participants</option>
-        <option value="10">10 Participants</option>
-    </select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+    </select> </select>
     <div id="elapsed">Elapsed Time: 00:00:00</div>
-    <div id="cost">£0.000</div>
-    <div class="controls">
+    <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
         <button id="startBtn">Start</button>
         <button id="pauseBtn" disabled>Pause</button>
         <button id="resetBtn">Reset</button>
@@ -86,7 +86,13 @@
     participantsSelect.addEventListener('change', updateDisplay);
 
     // Initialize display
-    updateDisplay();
+    <!-- updateDisplay(); -->
+
+    timer = setInterval(() => {
+        elapsedMilliseconds += 1000; // Update every 100 ms
+        updateDisplay();
+    }, 1000);
+
 </script>
 
 ## Links
