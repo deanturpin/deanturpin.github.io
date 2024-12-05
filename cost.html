@@ -77,8 +77,10 @@
             <option value="4">4 Participants</option>
             <option value="5" selected>5 Participants</option>
             <option value="10">10 Participants</option>
-            <option value="10">20 Participants</option>
-            <option value="10">50 Participants</option>
+            <option value="20">20 Participants</option>
+            <option value="50">50 Participants</option>
+            <option value="250">250 Participants</option>
+            <option value="1000">1000 Participants</option>
         </select>
         <div id="cost">£0.000</div>
         <div class="controls">
@@ -120,9 +122,18 @@
         }
 
         function updateDisplay() {
+
+            // Calculate cost based on time elapsed since page loaded and number of participants
             const cost = calculateCost();
             costDisplay.textContent = `£${cost.toFixed(4)}`;
             elapsedDisplay.textContent = `${formatTime(elapsedMilliseconds)}`;
+
+            // Define a maximum cost for color transition
+            const maxCost = 50;
+
+            // Change color from black to red as cost increases
+            const red = Math.min(255, Math.floor((cost / maxCost) * 255));
+            costDisplay.style.color = `rgb(${red}, 0, 0)`;
         }
 
         const refreshRate = 100;
