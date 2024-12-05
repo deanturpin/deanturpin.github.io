@@ -69,6 +69,7 @@
 <body>
     <div class="timer-container">
         <h1>Meeting Cost Timer</h1>
+        <div id="elapsed">00:00:00</div>
         <label for="participants">Participants:</label>
         <select id="participants">
             <option value="1">1 Participant</option>
@@ -80,7 +81,6 @@
             <option value="10">20 Participants</option>
             <option value="10">50 Participants</option>
         </select>
-        <div id="elapsed">Elapsed Time: 00:00:00</div>
         <div id="cost">£0.000</div>
         <div class="controls">
             <button id="startBtn">Start</button>
@@ -123,7 +123,7 @@
         function updateDisplay() {
             const cost = calculateCost();
             costDisplay.textContent = `£${cost.toFixed(2)}`;
-            elapsedDisplay.textContent = `Elapsed Time: ${formatTime(elapsedMilliseconds)}`;
+            elapsedDisplay.textContent = `${formatTime(elapsedMilliseconds)}`;
         }
 
         function startTimer() {

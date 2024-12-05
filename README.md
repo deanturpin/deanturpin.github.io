@@ -2,6 +2,7 @@
 ## This meeting cost how much?
 
 <div class="timer-container" style="text-align: center;">
+    <div id="elapsed">00:00:00</div>
     <label for="participants">Participants:</label>
     <select id="participants">
         <option value="1">1</option>
@@ -13,7 +14,6 @@
         <option value="20">20</option>
         <option value="50">50</option>
     </select>
-    <div id="elapsed">00:00:00</div>
     <div id="cost" style="font-size: 48px; margin: 20px 0; color: #d9534f;">£0.00</div> <div class="controls">
         <button id="startBtn">Start</button>
         <button id="pauseBtn" disabled>Pause</button>
