@@ -19,6 +19,9 @@
         <button id="pauseBtn" disabled>Pause</button>
         <button id="resetBtn">Reset</button>
     </div>
+    <div>
+    Go <a href="https://deanturpin.github.io/cost" target="_blank">fullscreen</a>
+    </div>
 </div>
 <script>
     let timer = null;
@@ -93,8 +96,6 @@
     // Start on page load
     window.addEventListener('load', startTimer);
 </script>
-
-Go [fullscreen](fullscreen.html).
 
 ## Links
 
