@@ -3,9 +3,7 @@
 
 <div class="timer-container" style="text-align: center;">
     <div id="elapsed">00:00:00</div>
-    <label for="participants">Participants:</label>
     <select id="participants">
-        <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
@@ -133,7 +131,7 @@
 | [Online logbook](https://germs.dev/) | Curated since 2009 |
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
-| [Brighton events](https://turpin.dev/brighton/) | Things to see and do |
+| [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
 
 ## Studio setup
 

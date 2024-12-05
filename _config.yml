@@ -1,9 +1,3 @@
 title: "Dean Turpin"
-description: "sometimes more is more"
-theme: jekyll-theme-merlot
-# baseurl: "turpin.dev"
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  
+theme: jekyll-theme-slate
+# url: "https://turpin.dev"
