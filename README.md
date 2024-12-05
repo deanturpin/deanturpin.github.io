@@ -27,7 +27,14 @@
     let timer = null;
     let elapsedMilliseconds = 0;
     let isRunning = false;
-    const salaryPerMillisecond = 50000 / (365 * 24 * 60 * 60 * 1000); // Average salary per millisecond for one participant
+
+    // Cost calculation
+    const workDaysPerYear = 225; // not every day is a work day
+    const secondsPerDay = 8 * 60 * 60; // not every hour is a work hour
+    const averageSalary = 40000; // average of a range of junior to senior developers
+    const chargedAtMultiplier = 2; // charged out at a higher rate of course
+    const salaryPerMillisecond = averageSalary * chargedAtMultiplier / (workDaysPerYear * secondsPerDay * 1000); // Average salary per millisecond for one participant
+
     const costDisplay = document.getElementById('cost');
     const elapsedDisplay = document.getElementById('elapsed');
     const participantsSelect = document.getElementById('participants');
