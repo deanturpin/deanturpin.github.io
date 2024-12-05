@@ -81,6 +81,7 @@
             <option value="8">8 Participants</option>
             <option value="9">9 Participants</option>
             <option value="10">10 Participants</option>
+
             <option value="20">20 Participants</option>
             <option value="50">50 Participants</option>
             <option value="250">250 Participants</option>
@@ -107,11 +108,7 @@
         // Cost calculation
         const workDaysPerYear = 225; // not every day is a work day
         const secondsPerDay = 8 * 60 * 60; // not every hour is a work hour
-        const averageSalary = parseInt(document.getElementById('averageSalary').value);
         const chargedAtMultiplier = 2; // We are charged out at a higher rate of course
-
-        // Average salary per millisecond for one participant
-        const salaryPerMillisecond = averageSalary * chargedAtMultiplier / (workDaysPerYear * secondsPerDay * 1000);
 
         const costDisplay = document.getElementById('cost');
         const elapsedDisplay = document.getElementById('elapsed');
@@ -121,8 +118,15 @@
         const resetBtn = document.getElementById('resetBtn');
 
         function calculateCost() {
+
+            // Fetch selected values
             const participants = parseInt(participantsSelect.value);
-            return elapsedMilliseconds * salaryPerMillisecond * participants; // Convert to thousands
+            const averageSalary = parseInt(document.getElementById('averageSalary').value);
+
+            // Calculate salary per millisecond based on average for group
+            const salaryPerMillisecond = averageSalary * chargedAtMultiplier / (workDaysPerYear * secondsPerDay * 1000);
+
+            return elapsedMilliseconds * salaryPerMillisecond * participants;
         }
 
         function formatTime(milliseconds) {
