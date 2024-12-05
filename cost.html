@@ -145,7 +145,7 @@
             elapsedDisplay.textContent = `${formatTime(elapsedMilliseconds)}`;
 
             // Define a maximum cost for color transition
-            const maxCost = 50;
+            const maxCost = 100;
 
             // Change color from black to red as cost increases
             const red = Math.min(255, Math.floor((cost / maxCost) * 255));
