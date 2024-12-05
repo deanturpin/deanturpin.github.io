@@ -20,7 +20,7 @@
         <button id="resetBtn">Reset</button>
     </div>
     <div>
-    Go <a href="https://deanturpin.github.io/cost" target="_blank">fullscreen</a>
+    <a href="https://deanturpin.github.io/cost" target="_blank">fullscreen</a>
     </div>
 </div>
 <script>
