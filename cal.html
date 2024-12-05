@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSAL Token Test</title>
+    <script src="https://alcdn.msauth.net/browser/2.33.0/js/msal-browser.min.js"></script>
+    <script>
+        const msalConfig = {
+            auth: {
+                clientId: "YOUR_CLIENT_ID", // Replace with your Azure app's Client ID
+                authority: "https://login.microsoftonline.com/common", // Use "common" for multi-tenant apps
+                redirectUri: window.location.href // Redirect after login
+            }
+        };
+
+        const msalInstance = new msal.PublicClientApplication(msalConfig);
+
+        function login() {
+            msalInstance.loginPopup({
+                scopes: ["User.Read"] // Adjust based on your API permissions
+            }).then(response => {
+                console.log("Logged in:", response);
+                document.getElementById("status").textContent = "Logged in!";
+                checkToken();
+            }).catch(error => {
+                console.error("Login failed:", error);
+            });
+        }
+
+        function checkToken() {
+            const account = msalInstance.getActiveAccount();
+            if (account) {
+                msalInstance.acquireTokenSilent({
+                    scopes: ["User.Read"],
+                    account: account
+                }).then(response => {
+                    console.log("Access Token:", response.accessToken);
+                    document.getElementById("token").textContent = response.accessToken;
+                }).catch(error => {
+                    console.error("Silent token acquisition failed:", error);
+                    if (error.name === "InteractionRequiredAuthError") {
+                        msalInstance.acquireTokenPopup({
+                            scopes: ["User.Read"]
+                        }).then(response => {
+                            console.log("Access Token (via Popup):", response.accessToken);
+                            document.getElementById("token").textContent = response.accessToken;
+                        }).catch(error => {
+                            console.error("Token acquisition via popup failed:", error);
+                        });
+                    }
+                });
+            } else {
+                console.log("No active account found. Please log in.");
+                document.getElementById("status").textContent = "Not logged in.";
+            }
+        }
+
+        window.onload = () => {
+            // Check token on page load
+            checkToken();
+        };
+    </script>
+</head>
+<body>
+    <h1>MSAL.js Token Test</h1>
+    <p id="status">Checking login status...</p>
+    <button onclick="login()">Log In</button>
+    <h2>Access Token</h2>
+    <pre id="token">No token yet.</pre>
+</body>
+</html>
