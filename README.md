@@ -90,8 +90,11 @@
     // Initialize display
     updateDisplay();
 
+    // Start on page load
     window.addEventListener('load', startTimer);
 </script>
+
+Go [fullscreen](fullscreen.html).
 
 ## Links
 
