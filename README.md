@@ -30,8 +30,10 @@
     const workDaysPerYear = 225; // not every day is a work day
     const secondsPerDay = 8 * 60 * 60; // not every hour is a work hour
     const averageSalary = 40000; // average of a range of junior to senior developers
-    const chargedAtMultiplier = 2; // charged out at a higher rate of course
-    const salaryPerMillisecond = averageSalary * chargedAtMultiplier / (workDaysPerYear * secondsPerDay * 1000); // Average salary per millisecond for one participant
+    const chargedAtMultiplier = 2; // we are charged out at a higher rate of course
+
+    // Average salary per millisecond for one participant
+    const salaryPerMillisecond = averageSalary * chargedAtMultiplier / (workDaysPerYear * secondsPerDay * 1000);
 
     const costDisplay = document.getElementById('cost');
     const elapsedDisplay = document.getElementById('elapsed');
@@ -65,7 +67,7 @@
             startBtn.disabled = true;
             pauseBtn.disabled = false;
             timer = setInterval(() => {
-                elapsedMilliseconds += 1000; // Update every 100 ms
+                elapsedMilliseconds += 1000;
                 updateDisplay();
             }, 1000);
         }
