@@ -126,12 +126,13 @@
 
 ## Studio setup
 
-- BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro
 - MacBook Air M3
-- Volt audio interface
+- Universal Audio Volt 476P Audio Interface
+- BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro
 - Roland 303 Groovebox
 - Roland TB-03
 - MicroKorg
+- Arturia MiniLab 3 Midi Controller Keyboard
 - [Akai MIDImix](https://www.akaipro.com/midimix)
 
 ## Bandcamp
