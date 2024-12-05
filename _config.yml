@@ -1,6 +1,7 @@
 title: "Dean Turpin"
 description: "sometimes more is more"
 theme: jekyll-theme-merlot
+baseurl: "turpin.dev"
 
 markdown: kramdown
 kramdown:
