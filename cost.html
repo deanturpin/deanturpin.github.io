@@ -69,30 +69,47 @@
 </head>
 <body>
     <div class="timer-container">
-        <h1>Time == Money</h1>
+        <h1>Time == Money</h1>    
         <div id="elapsed">00:00:00</div>
-        <select id="participants">
-            <option value="2">2 Participants</option>
-            <option value="3">3 Participants</option>
-            <option value="4">4 Participants</option>
-            <option value="5" selected>5 Participants</option>
-            <option value="6">6 Participants</option>
-            <option value="7">7 Participants</option>
-            <option value="8">8 Participants</option>
-            <option value="9">9 Participants</option>
-            <option value="10">10 Participants</option>
 
-            <option value="20">20 Participants</option>
-            <option value="50">50 Participants</option>
-            <option value="250">250 Participants</option>
-            <option value="1000">1000 Participants</option>
+        <!-- number of participants and average salary -->
+        <select id="participants">
+            <option value="2">2 participants</option>
+            <option value="3">3 participants</option>
+            <option value="4">4 participants</option>
+            <option value="5" selected>5 participants</option>
+            <option value="6">6 participants</option>
+            <option value="7">7 participants</option>
+            <option value="8">8 participants</option>
+            <option value="9">9 participants</option>
+            <option value="10">10 participants</option>
+            <option value="20">20 participants</option>
+            <option value="50">50 participants</option>
+            <option value="250">250 participants</option>
+            <option value="1000">1000 participants</option>
         </select>
+        <span>at a</span>
         <select id="averageSalary">
-            <option value="50000" selected>Dev meeting</option>
-            <option value="55000">Company briefing</option>
-            <option value="90000">VPs</option>
-            <option value="120000">C-suite</option>
+            <option value="50000" selected>dev meeting</option>
+            <option value="55000">company briefing</option>
+            <option value="90000">VP gathering</option>
+            <option value="120000">C-suite meeting</option>
         </select>
+
+        <div>
+            <span>starting at</span>
+            <input type="time" id="startTime" value="">
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            document.getElementById('startTime').value = `${hours}:${minutes}`;
+            });
+        </script>
+
         <div id="cost"></div>
         <div class="controls">
             <button id="startBtn">Start</button>
@@ -152,14 +169,17 @@
             costDisplay.style.color = `rgb(${red}, 0, 0)`;
         }
 
-        const refreshRate = 100;
+        const refreshRate = 200;
         function startTimer() {
             if (!isRunning) {
                 isRunning = true;
                 startBtn.disabled = true;
                 pauseBtn.disabled = false;
                 timer = setInterval(() => {
-                    elapsedMilliseconds += refreshRate;
+                    const startTime = document.getElementById('startTime').value.split(':');
+                    const now = new Date();
+                    const start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), startTime[0], startTime[1]);
+                    elapsedMilliseconds = now - start;
                     updateDisplay();
                 }, refreshRate);
             }
