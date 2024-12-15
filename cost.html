@@ -11,16 +11,24 @@
             background-color: #f4f4f9;
             color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            height: 100vh;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
         }
 
         .timer-container {
-            max-width: 400px;
-            margin: 50px auto;
+            width: 100%;
+            height: 100%;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 0;
             background: #fff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         #cost {
@@ -85,6 +93,8 @@
             <option value="10">10 participants</option>
             <option value="20">20 participants</option>
             <option value="50">50 participants</option>
+            <option value="75">75 participants</option>
+            <option value="100">100 participants</option>
             <option value="250">250 participants</option>
             <option value="1000">1000 participants</option>
         </select>

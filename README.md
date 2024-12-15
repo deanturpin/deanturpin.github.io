@@ -41,17 +41,13 @@
 - Arturia MiniLab 3 Midi Controller Keyboard
 - [Akai MIDImix](https://www.akaipro.com/midimix)
 
+## Mixcloud
+
+<iframe width="100%" height="400" src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2Fdeanturbeaux%2Fasl1%2F" frameborder="0" ></iframe>
+
 ## Bandcamp
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1491515808/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://deanturbeaux.bandcamp.com/track/made-in-black-featuring-phil-mills">Made in Black featuring Phil Mills by Dean Turbeaux</a></iframe>
-
-## Mixcloud
-
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdeanturbeaux%2Fslow-horses-1%2F" frameborder="0" ></iframe>
-
-## Spotify
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0bBjdf7r1fKPR0178P5rmM?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Pipes
 
