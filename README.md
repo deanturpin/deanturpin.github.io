@@ -11,7 +11,7 @@
 - [The Climate Book](https://www.amazon.co.uk/gp/product/0241547474/) -- Greta Thunberg
 - [The Art of Writing Efficient Programs](https://www.amazon.co.uk/Art-Writing-Efficient-Programs-optimizations/dp/1800208111/) -- Fedor G. Pikus
 
-## Side hustles
+## Side projects
 
 | Title | Description |
 |-|-|
@@ -29,6 +29,12 @@
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
 | [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
+
+### New candidates
+
+- GoAT: Go trading strategy backtester
+- Universal translater: Go live translation
+- EV charger alerts: notify when local charger becomes available
 
 ## Studio setup
 
