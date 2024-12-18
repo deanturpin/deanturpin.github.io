@@ -8,7 +8,7 @@
 
 ## Currently reading
 
-- [The Climate Book](https://www.amazon.co.uk/gp/product/0241547474/) -- Greta Thunberg
+- [Bad Science](https://www.amazon.co.uk/Bad-Science-Ben-Goldacre/dp/000728487X) -- Ben Goldacre
 - [The Art of Writing Efficient Programs](https://www.amazon.co.uk/Art-Writing-Efficient-Programs-optimizations/dp/1800208111/) -- Fedor G. Pikus
 
 ## Side projects
