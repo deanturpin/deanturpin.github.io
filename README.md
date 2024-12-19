@@ -35,6 +35,7 @@
 - GoAT: Go trading strategy backtester
 - Universal translater: Go live translation
 - EV charger alerts: notify when local charger becomes available
+- https://hackingroomba.com/
 
 ## Studio setup
 
