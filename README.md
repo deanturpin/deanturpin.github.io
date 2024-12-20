@@ -37,7 +37,7 @@
 - EV charger alerts: notify when local charger becomes available
 - https://hackingroomba.com/
 
-## Studio setup
+## Studio
 
 - MacBook Air M3
 - Universal Audio Volt 476P Audio Interface
@@ -47,8 +47,6 @@
 - MicroKorg
 - Arturia MiniLab 3 Midi Controller Keyboard
 - [Akai MIDImix](https://www.akaipro.com/midimix)
-
-## Music
 
 <iframe width="100%" height="400" src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2Fdeanturbeaux%2Fasl1%2F" frameborder="0" ></iframe>
 
