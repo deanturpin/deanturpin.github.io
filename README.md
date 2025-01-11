@@ -29,6 +29,7 @@
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://turpin.dev/ev/) | Common misconceptions |
 | [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
+| [Meta and privacy](https://turpin.dev/meta/) | And how to leave it |
 
 ### New candidates
 
