@@ -31,7 +31,7 @@
 | [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
 | [Meta and privacy](https://turpin.dev/meta/) | And how to leave it |
 
-### New candidates
+## New candidates
 
 - GoAT: Go trading strategy backtester
 - Universal translater: Go live translation
