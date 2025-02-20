@@ -18,6 +18,7 @@
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
 | [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container from source |
 | [deanturpin/dev](https://hub.docker.com/r/deanturpin/dev) | C++ dev container |
+| [deanturpin/asterisk](https://hub.docker.com/r/deanturpin/dev) | Asterisk container |
 | [constd](https://deanturpin.gitlab.io/constd/) | `constexpr` Standard Library functions |
 | [Trading backtester (stocks)](https://deanturpin.gitlab.io/backtest/) | Backtester 2024 |
 | [Trading backtester (crypto)](https://cpp.run/) | Backtester from scratch |
