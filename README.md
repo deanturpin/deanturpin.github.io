@@ -39,6 +39,7 @@
 - EV charger alerts: notify when local charger becomes available
 - https://hackingroomba.com/
 - https://grapheneos.org/
+- https://eodhd.com/ and https://databento.com/
 
 ## Studio
 
