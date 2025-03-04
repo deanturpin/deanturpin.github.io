@@ -42,7 +42,7 @@
 - https://eodhd.com/ and https://databento.com/
 - https://ui.perfetto.dev/
 - JSON over SIP: can we use Asterisk as a general purpose message hub?
-- ASCII Mandlebrot explorer
+- ASCII Mandlebrot explorer (use as a stress tester)
 
 ## Studio
 
