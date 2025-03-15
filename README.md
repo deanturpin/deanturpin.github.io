@@ -47,6 +47,7 @@
 
 ## Studio
 
+- Logic Pro 11
 - MacBook Air M3
 - Universal Audio Volt 476P Audio Interface
 - BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro
