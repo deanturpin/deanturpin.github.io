@@ -39,7 +39,7 @@
 - EV charger alerts: notify when local charger becomes available
 - https://hackingroomba.com/
 - https://grapheneos.org/
-- https://eodhd.com/ and https://databento.com/
+- https://eodhd.com/ and https://databento.com/ and https://www.oanda.com/
 - https://ui.perfetto.dev/
 - JSON over SIP: can we use Asterisk as a general purpose message hub?
 - ASCII Mandlebrot explorer (use as a stress tester)
