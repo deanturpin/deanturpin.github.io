@@ -44,6 +44,8 @@
 - JSON over SIP: can we use Asterisk as a general purpose message hub?
 - ASCII Mandlebrot explorer (use as a stress tester)
 - Trial reprepo and GitLab pages for shh
+- Bill splitter
+- Car swap
 
 ## Studio
 
