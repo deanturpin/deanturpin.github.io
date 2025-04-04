@@ -46,6 +46,7 @@
 - Trial reprepo and GitLab pages for shh
 - Bill splitter
 - Car swap
+- Multi-platform song search: Spotify, Tidal, Beatport etc
 
 ## Studio
 
@@ -53,11 +54,16 @@
 - MacBook Air M3
 - Universal Audio Volt 476P Audio Interface
 - BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro
-- Roland 303 Groovebox
 - Roland TB-03
-- MicroKorg
 - Arturia MiniLab 3 Midi Controller Keyboard
+- Dean travel guitar
+- Ernie Ball Extra Slinky
+
+<!--
+- MicroKorg
 - [Akai MIDImix](https://www.akaipro.com/midimix)
+- Roland 303 Groovebox
+-->
 
 ## Pipes
 
