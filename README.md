@@ -25,9 +25,9 @@
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2l2urKDshLt6v0AoRhnt00?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ylhJbIb9O38UvjhQrKPut?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6ZrCentkFD8ZjYHylJjOVW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ylhJbIb9O38UvjhQrKPut?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/54Jq53KfKwGQXAeBlaZ75f?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
