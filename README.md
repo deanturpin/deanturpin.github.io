@@ -11,6 +11,26 @@
 - [Bad Science](https://www.amazon.co.uk/Bad-Science-Ben-Goldacre/dp/000728487X) -- Ben Goldacre
 - [The Art of Writing Efficient Programs](https://www.amazon.co.uk/Art-Writing-Efficient-Programs-optimizations/dp/1800208111/) -- Fedor G. Pikus
 
+## Playlists
+
+### 2025
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3AhUh6YtkgmkBocSMuszb3?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/25yPugKsn9xtbljjDFKkpi?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+### 2024
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0bBjdf7r1fKPR0178P5rmM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2l2urKDshLt6v0AoRhnt00?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ylhJbIb9O38UvjhQrKPut?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6ZrCentkFD8ZjYHylJjOVW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/54Jq53KfKwGQXAeBlaZ75f?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Side projects
 
 | Title | Description |
