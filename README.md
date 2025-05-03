@@ -112,7 +112,6 @@
 [![deanturpin/backtest](https://gitlab.com/deanturpin/backtest/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/backtest/-/pipelines) 
 [![deanturpin/ev](https://gitlab.com/deanturpin/ev/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/ev/-/pipelines) 
 [![deanturpin/constd](https://gitlab.com/deanturpin/constd/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/constd/-/pipelines) 
-[![deanturpin/cmake-external-project](https://gitlab.com/deanturpin/cmake-external-project/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/cmake-external-project/-/pipelines) 
 
 ## Skills
 
