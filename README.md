@@ -28,7 +28,7 @@
 | [Learn C++ in 45 years](https://germs-dev.gitlab.io/cs/) | Survival guide for C++/Linux devs |
 | [Online logbook](https://germs.dev/) | Curated since 2009 |
 | [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
-| [EV myths](https://turbeaux.uk/) | Common misconceptions (built with Solo) |
+| [EV myths](https://soloist.ai/evmyths) | Common misconceptions (built with Solo) |
 | [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
 | [Meta and privacy](https://turpin.dev/meta/) | And how to leave it |
 
