@@ -8,8 +8,7 @@
 
 ## Currently reading
 
-- [Bad Science](https://www.amazon.co.uk/Bad-Science-Ben-Goldacre/dp/000728487X) -- Ben Goldacre
-- [The Art of Writing Efficient Programs](https://www.amazon.co.uk/Art-Writing-Efficient-Programs-optimizations/dp/1800208111/) -- Fedor G. Pikus
+- [Andrew Weatherall -- A jock Slut Tribute](https://www.banquetrecords.com/andrew-weatherall/a-jockey-slut-tribute/AWJST)
 
 ## Side projects
 
