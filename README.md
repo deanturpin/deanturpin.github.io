@@ -8,7 +8,7 @@
 
 ## Currently reading
 
-- [Andrew Weatherall -- A jock Slut Tribute](https://www.banquetrecords.com/andrew-weatherall/a-jockey-slut-tribute/AWJST)
+- [Andrew Weatherall -- A Jockey Slut Tribute](https://www.banquetrecords.com/andrew-weatherall/a-jockey-slut-tribute/AWJST)
 
 ## Side projects
 
