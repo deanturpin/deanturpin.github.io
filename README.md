@@ -8,7 +8,7 @@
 
 ## Currently reading
 
-- [Andrew Weatherall -- A Jockey Slut Tribute](https://www.banquetrecords.com/andrew-weatherall/a-jockey-slut-tribute/AWJST)
+- [How Equal Temperament Ruined Harmony -- Ross W. Duffin](https://www.goodreads.com/book/show/168325.How_Equal_Temperament_Ruined_Harmony)
 
 ## Side projects
 
