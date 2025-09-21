@@ -14,6 +14,9 @@
 
 | Title | Description |
 |-|-|
+| [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
+| [konda](https://github.com/deanturpin/ts) | Polyphonic synth plugin with built-in FFT |
+| [roomtone](https://turpin.dev/roomtone) | Ambient tone generator using room feedback |
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
 | [deanturpin/asterisk](https://hub.docker.com/r/deanturpin/asterisk) | Asterisk container |
 | [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container from source |
