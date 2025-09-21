@@ -14,6 +14,7 @@
 
 | Title | Description |
 |-|-|
+| [voski](https://github.com/deanturpin/voski/) | Bidirectional translator |
 | [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
 | [konda](https://github.com/deanturpin/ts) | Polyphonic synth plugin with built-in FFT |
 | [roomtone](https://turpin.dev/roomtone) | Ambient tone generator using room feedback |
