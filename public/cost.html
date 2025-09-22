@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James == Money</title>
+    <title>Time == Money</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,7 +22,7 @@
             height: 100%;
             padding: 20px;
             border-radius: 0;
-            background: #lightgrey;
+            background: #fff;
             box-shadow: none;
             flex-direction: column;
             justify-content: center;
@@ -75,9 +75,10 @@
 </head>
 <body>
     <div class="timer-container">
-        <h1>The Carrculator</h1>    
-        <h2>James == Money</h2>    
+        <h1>Time == Money</h1>    
         <div id="elapsed">00:00:00</div>
+
+        <!-- number of participants and average salary -->
         <select id="participants">
             <option value="2">2 participants</option>
             <option value="3">3 participants</option>
@@ -122,7 +123,6 @@
             <button id="resetBtn">Reset</button>
         </div>
     </div>
-
     <script>
         let timer = null;
         let elapsedMilliseconds = 0;
