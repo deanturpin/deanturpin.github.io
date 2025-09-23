@@ -29,11 +29,11 @@
 
 | Title | Description |
 |-|-|
-| [keyq](https://github.com/deanturpin/efefte) | key-based EQ plugin for Logic Pro |
+| [keyq](https://turpin.dev/efefte) | key-based EQ plugin for Logic Pro |
 | [voski](https://turpin.dev/voski/) | Bidirectional translator |
-| [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
-| [konda](https://github.com/deanturpin/ts) | Polyphonic synth plugin with built-in FFT |
+| [konda](https://turpin.dev/ts) | Polyphonic synth plugin with built-in FFT |
 | [roomtone](https://turpin.dev/roomtone) | Ambience generator using room feedback |
+| [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
 | [deanturpin/asterisk](https://hub.docker.com/r/deanturpin/asterisk) | Asterisk container |
 | [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container from source |
