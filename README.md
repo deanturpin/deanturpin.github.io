@@ -29,6 +29,7 @@
 
 | Title | Description |
 |-|-|
+| [keyq](https://github.com/deanturpin/efefte) | key-based EQ plugin for Logic Pro |
 | [voski](https://turpin.dev/voski/) | Bidirectional translator |
 | [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
 | [konda](https://github.com/deanturpin/ts) | Polyphonic synth plugin with built-in FFT |
