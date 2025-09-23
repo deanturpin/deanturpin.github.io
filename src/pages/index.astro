@@ -1,5 +1,19 @@
 ---
-const title = "Dean Turpin"
+import { marked } from 'marked';
+import fs from 'fs';
+import path from 'path';
+
+const title = "Dean Turpin";
+
+// Read README.md content
+const readmePath = path.join(process.cwd(), 'README.md');
+const readmeContent = fs.readFileSync(readmePath, 'utf-8');
+
+// Skip the first heading (it's redundant with our page title)
+const contentWithoutTitle = readmeContent.replace(/^#\s+.*\n/, '');
+
+// Convert markdown to HTML
+const htmlContent = marked(contentWithoutTitle);
 ---
 
 <html lang="en">
@@ -145,6 +159,14 @@ const title = "Dean Turpin"
 				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 			}
 
+			code {
+				background: rgba(255, 255, 255, 0.9);
+				padding: 0.2rem 0.4rem;
+				border-radius: 4px;
+				font-size: 0.9em;
+				color: #2d1b69;
+			}
+
 			.pipeline-badges {
 				display: flex;
 				flex-wrap: wrap;
@@ -222,6 +244,21 @@ const title = "Dean Turpin"
 				color: #333;
 			}
 
+			/* Special handling for pipeline badges section */
+			h2:has(+ p > a[href*="gitlab.com"]) + p {
+				display: none;
+			}
+
+			h2:has(+ p > a[href*="gitlab.com"]) ~ p:has(a[href*="gitlab.com"]) {
+				margin: 0;
+				padding: 0;
+			}
+
+			h2:has(+ p > a[href*="gitlab.com"]) ~ p > a[href*="gitlab.com"] {
+				display: inline-block;
+				margin: 0.5rem;
+			}
+
 			@media (max-width: 600px) {
 				body {
 					padding: 2rem 1rem;
@@ -254,112 +291,7 @@ const title = "Dean Turpin"
 			</select>
 		</div>
 		<h1>{title}</h1>
-
-		<h2>Links</h2>
-		<ul>
-			<li><a href="https://github.com/deanturpin">GitHub</a></li>
-			<li><a href="https://gitlab.com/deanturpin">GitLab</a></li>
-			<li><a href="https://www.linkedin.com/in/deanturpin">LinkedIn</a></li>
-			<li><a href="https://hub.docker.com/u/deanturpin">Docker hub</a></li>
-		</ul>
-
-		<h2>Currently reading</h2>
-		<ul>
-			<li><a href="https://www.goodreads.com/book/show/168325.How_Equal_Temperament_Ruined_Harmony">How Equal Temperament Ruined Harmony -- Ross W. Duffin</a></li>
-		</ul>
-
-		<h2>Side projects</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Description</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr><td><a href="https://turpin.dev/voski/">voski</a></td><td>Bidirectional translator</td></tr>
-				<tr><td><a href="https://github.com/deanturpin/projects">hustle</a></td><td>Project ideas explored with Claude Code</td></tr>
-				<tr><td><a href="https://github.com/deanturpin/ts">konda</a></td><td>Polyphonic synth plugin with built-in FFT</td></tr>
-				<tr><td><a href="https://turpin.dev/roomtone">roomtone</a></td><td>Ambience generator using room feedback</td></tr>
-				<tr><td><a href="https://hub.docker.com/r/deanturpin/shh">deanturpin/shh</a></td><td>Command line packet inspector</td></tr>
-				<tr><td><a href="https://hub.docker.com/r/deanturpin/asterisk">deanturpin/asterisk</a></td><td>Asterisk container</td></tr>
-				<tr><td><a href="https://hub.docker.com/r/deanturpin/gcc">deanturpin/gcc</a></td><td>Nightly gcc container from source</td></tr>
-				<tr><td><a href="https://hub.docker.com/r/deanturpin/dev">deanturpin/dev</a></td><td>C++ dev container</td></tr>
-				<tr><td><a href="https://deanturpin.gitlab.io/constd/">constd</a></td><td><code>constexpr</code> Standard Library functions</td></tr>
-				<tr><td><a href="https://deanturpin.gitlab.io/backtest/">Trading backtester (stocks)</a></td><td>Backtester 2024</td></tr>
-				<tr><td><a href="https://cpp.run/">Trading backtester (crypto)</a></td><td>Backtester from scratch</td></tr>
-				<tr><td><a href="https://germs-dev.gitlab.io/concurrency-support-library/">std::thread</a></td><td>C++ Concurrency Support Library</td></tr>
-				<tr><td><a href="https://germs-dev.gitlab.io/dft/">The Plotting Parlour</a></td><td>Discrete Fourier transforms</td></tr>
-				<tr><td><a href="https://germs-dev.gitlab.io/cpp/">C++ recipes</a></td><td>C++ idioms and good practice</td></tr>
-				<tr><td><a href="https://germs-dev.gitlab.io/cs/">Learn C++ in 45 years</a></td><td>Survival guide for C++/Linux devs</td></tr>
-				<tr><td><a href="https://germs.dev/">Online logbook</a></td><td>Curated since 2009</td></tr>
-				<tr><td><a href="https://superdean.com/">The Brighton Watch</a></td><td>Watchmaking and collector resources</td></tr>
-				<tr><td><a href="https://soloist.ai/evmyths">EV myths</a></td><td>Common misconceptions (built with Solo)</td></tr>
-				<tr><td><a href="https://turpin.dev/brighton/">Out and about in Brighton</a></td><td>Things to see and do</td></tr>
-				<tr><td><a href="https://turpin.dev/meta/">Meta and privacy</a></td><td>And how to leave it</td></tr>
-			</tbody>
-		</table>
-
-		<h2>New candidates</h2>
-		<ul>
-			<li>GoAT: Go trading strategy backtester</li>
-			<li>Universal translater: Go live translation</li>
-			<li>EV charger alerts: notify when local charger becomes available</li>
-			<li><a href="https://hackingroomba.com/">https://hackingroomba.com/</a></li>
-			<li><a href="https://grapheneos.org/">https://grapheneos.org/</a></li>
-			<li><a href="https://eodhd.com/">https://eodhd.com/</a> and <a href="https://databento.com/">https://databento.com/</a> and <a href="https://www.oanda.com/">https://www.oanda.com/</a></li>
-			<li><a href="https://ui.perfetto.dev/">https://ui.perfetto.dev/</a></li>
-			<li>JSON over SIP: can we use Asterisk as a general purpose message hub?</li>
-			<li>ASCII Mandlebrot explorer (use as a stress tester)</li>
-			<li>Trial reprepo and GitLab pages for shh</li>
-			<li>Bill splitter</li>
-			<li>Car swap</li>
-			<li>Multi-platform song search: Spotify, Tidal, Beatport etc</li>
-		</ul>
-
-		<h2>Studio</h2>
-		<ul>
-			<li>Logic Pro 11</li>
-			<li>MacBook Air M3</li>
-			<li>Universal Audio Volt 476P Audio Interface</li>
-			<li>BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro</li>
-			<li>Roland TB-03</li>
-			<li>Arturia MiniLab 3 Midi Controller Keyboard</li>
-			<li>Dean travel guitar</li>
-			<li>Ernie Ball Extra Slinky</li>
-		</ul>
-
-		<h2>Pipes</h2>
-		<div class="pipeline-badges">
-			<a href="https://gitlab.com/germs-dev/concurrency-support-library/-/pipelines"><img src="https://gitlab.com/germs-dev/concurrency-support-library/badges/main/pipeline.svg" alt="germs-dev/concurrency-support-library" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/cpp/-/pipelines"><img src="https://gitlab.com/germs-dev/cpp/badges/main/pipeline.svg" alt="germs-dev/cpp" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/fix/-/pipelines"><img src="https://gitlab.com/germs-dev/fix/badges/main/pipeline.svg" alt="germs-dev/fix" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/cs/-/pipelines"><img src="https://gitlab.com/germs-dev/cs/badges/main/pipeline.svg" alt="germs-dev/cs" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/hear/-/pipelines"><img src="https://gitlab.com/germs-dev/hear/badges/main/pipeline.svg" alt="germs-dev/hear" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/pjsip/-/pipelines"><img src="https://gitlab.com/germs-dev/pjsip/badges/main/pipeline.svg" alt="germs-dev/pjsip" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/openai/-/pipelines"><img src="https://gitlab.com/germs-dev/openai/badges/main/pipeline.svg" alt="germs-dev/openai" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/scripts/-/pipelines"><img src="https://gitlab.com/germs-dev/scripts/badges/main/pipeline.svg" alt="germs-dev/scripts" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/deanturpin/-/pipelines"><img src="https://gitlab.com/germs-dev/deanturpin/badges/main/pipeline.svg" alt="germs-dev/deanturpin" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/webmeup/-/pipelines"><img src="https://gitlab.com/germs-dev/webmeup/badges/main/pipeline.svg" alt="germs-dev/webmeup" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/tracehost/-/pipelines"><img src="https://gitlab.com/germs-dev/tracehost/badges/main/pipeline.svg" alt="germs-dev/tracehost" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/energy/-/pipelines"><img src="https://gitlab.com/germs-dev/energy/badges/main/pipeline.svg" alt="germs-dev/energy" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/quotations/-/pipelines"><img src="https://gitlab.com/germs-dev/quotations/badges/main/pipeline.svg" alt="germs-dev/quotations" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/skills/-/pipelines"><img src="https://gitlab.com/germs-dev/skills/badges/main/pipeline.svg" alt="germs-dev/skills" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/render/-/pipelines"><img src="https://gitlab.com/germs-dev/render/badges/main/pipeline.svg" alt="germs-dev/render" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/mews-one/-/pipelines"><img src="https://gitlab.com/germs-dev/mews-one/badges/main/pipeline.svg" alt="germs-dev/mews-one" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/brighton/-/pipelines"><img src="https://gitlab.com/germs-dev/brighton/badges/main/pipeline.svg" alt="germs-dev/brighton" loading="lazy" /></a>
-			<a href="https://gitlab.com/deanturpin/deanturpin/-/pipelines"><img src="https://gitlab.com/deanturpin/deanturpin/badges/main/pipeline.svg" alt="deanturpin/deanturpin" loading="lazy" /></a>
-			<a href="https://gitlab.com/deanturpin/idrawhouses/-/pipelines"><img src="https://gitlab.com/deanturpin/idrawhouses/badges/main/pipeline.svg" alt="deanturpin/idrawhouses" loading="lazy" /></a>
-			<a href="https://gitlab.com/deanturpin/recipes2/-/pipelines"><img src="https://gitlab.com/deanturpin/recipes2/badges/main/pipeline.svg" alt="deanturpin/recipes2" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/dft/-/pipelines"><img src="https://gitlab.com/germs-dev/dft/badges/main/pipeline.svg" alt="germs-dev/dft" loading="lazy" /></a>
-			<a href="https://gitlab.com/germs-dev/bt/-/pipelines"><img src="https://gitlab.com/germs-dev/bt/badges/main/pipeline.svg" alt="germs-dev/bt" loading="lazy" /></a>
-			<a href="https://gitlab.com/deanturpin/backtest/-/pipelines"><img src="https://gitlab.com/deanturpin/backtest/badges/main/pipeline.svg" alt="deanturpin/backtest" loading="lazy" /></a>
-			<a href="https://gitlab.com/deanturpin/ev/-/pipelines"><img src="https://gitlab.com/deanturpin/ev/badges/main/pipeline.svg" alt="deanturpin/ev" loading="lazy" /></a>
-			<a href="https://gitlab.com/deanturpin/constd/-/pipelines"><img src="https://gitlab.com/deanturpin/constd/badges/main/pipeline.svg" alt="deanturpin/constd" loading="lazy" /></a>
-		</div>
-
-		<h2>Skills</h2>
-		<p><a href="https://skills.turpin.dev/skills.png"><img src="https://skills.turpin.dev/skills.png" alt="skills timeline" /></a></p>
+		<div set:html={htmlContent} />
 
 		<script>
 			// Theme definitions
@@ -422,7 +354,7 @@ const title = "Dean Turpin"
 						table { background: ${theme['--table-bg']} !important; }
 						li { color: ${theme['--text']} !important; text-shadow: none !important; }
 						h2 { color: ${theme['--heading']} !important; text-shadow: none !important; }
-						.pipeline-badges { background: ${theme['--table-bg']} !important; }
+						code { color: ${theme['--text']} !important; }
 					`;
 					document.head.appendChild(style);
 				} else {
@@ -449,6 +381,34 @@ const title = "Dean Turpin"
 			if (savedTheme !== 'sunset') {
 				applyTheme(savedTheme);
 			}
+
+			// Wrap pipeline badges in a container
+			document.addEventListener('DOMContentLoaded', () => {
+				const pipesHeading = Array.from(document.querySelectorAll('h2')).find(h => h.textContent === 'Pipes');
+				if (pipesHeading) {
+					const badges = [];
+					let nextElement = pipesHeading.nextElementSibling;
+
+					while (nextElement && nextElement.tagName === 'P') {
+						const links = nextElement.querySelectorAll('a[href*="gitlab.com"]');
+						links.forEach(link => {
+							if (link.querySelector('img')) {
+								badges.push(link.cloneNode(true));
+							}
+						});
+						const toRemove = nextElement;
+						nextElement = nextElement.nextElementSibling;
+						toRemove.remove();
+					}
+
+					if (badges.length > 0) {
+						const container = document.createElement('div');
+						container.className = 'pipeline-badges';
+						badges.forEach(badge => container.appendChild(badge));
+						pipesHeading.after(container);
+					}
+				}
+			});
 		</script>
 	</body>
 </html>
