@@ -10,6 +10,21 @@
 
 - [How Equal Temperament Ruined Harmony -- Ross W. Duffin](https://www.goodreads.com/book/show/168325.How_Equal_Temperament_Ruined_Harmony)
 
+## Claude Code crib sheet
+
+| Command | Description |
+|-|-|
+| `/init` | Analyse codebase and create CLAUDE.md |
+| `/model` | Show current model information |
+| `/help` | Get help with Claude Code features |
+| `/web` | Search the web for current information |
+| `/edit filename:line` | Open file at specific line in editor |
+| `claude.ai/code` | Official Claude Code documentation |
+| Multiple tool calls | Run commands in parallel for better performance |
+| Agent delegation | Specialised agents for complex tasks |
+| File operations | Read, Write, Edit, Glob, Grep tools available |
+| Git integration | Auto-commit with 🤖 emoji when appropriate |
+
 ## Side projects
 
 | Title | Description |
