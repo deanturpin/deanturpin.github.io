@@ -25,17 +25,24 @@
 | File operations | Read, Write, Edit, Glob, Grep tools available |
 | Git integration | Auto-commit with 🤖 emoji when appropriate |
 
+## Top level domains
+
+- [turpin.dev](https://turpin.dev/) -- landing page for everything
+- [germs.dev](https://germs.dev/) -- online logbook (since 2009)
+- [turbeaux.uk](https://turbeaux.uk/) -- music resources
+- [superdean.com](https://superdean.com/) -- watchmaking resources
+- [cpp.run](https://cpp.run/)
+
 ## Side projects
 
 | Title | Description |
 |-|-|
 | [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev |
 | [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
-| [turbeaux.uk](https://github.com/deanturpin/turbeaux.uk) | Dean Turbeaux's music website |
 | [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
-| [keyq](https://turpin.dev/efefte) | key-based EQ plugin for Logic Pro |
+| [keyq](https://github.com/deanturpin/keyq) | key-based EQ plugin for Logic Pro |
 | [voski](https://turpin.dev/voski/) | Bidirectional translator |
-| [konda](https://turpin.dev/ts) | Polyphonic synth plugin with built-in FFT |
+| [konda](https://turpin.dev/konda) | Polyphonic synth plugin with built-in FFT |
 | [roomtone](https://turpin.dev/roomtone) | Ambience generator using room feedback |
 | [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
@@ -44,13 +51,10 @@
 | [deanturpin/dev](https://hub.docker.com/r/deanturpin/dev) | C++ dev container |
 | [constd](https://deanturpin.gitlab.io/constd/) | `constexpr` Standard Library functions |
 | [Trading backtester (stocks)](https://deanturpin.gitlab.io/backtest/) | Backtester 2024 |
-| [Trading backtester (crypto)](https://cpp.run/) | Backtester from scratch |
 | [std::thread](https://germs-dev.gitlab.io/concurrency-support-library/) | C++ Concurrency Support Library |
 | [The Plotting Parlour](https://germs-dev.gitlab.io/dft/) | Discrete Fourier transforms |
 | [C++ recipes](https://germs-dev.gitlab.io/cpp/) | C++ idioms and good practice |
 | [Learn C++ in 45 years](https://germs-dev.gitlab.io/cs/) | Survival guide for C++/Linux devs |
-| [Online logbook](https://germs.dev/) | Curated since 2009 |
-| [The Brighton Watch](https://superdean.com/) | Watchmaking and collector resources |
 | [EV myths](https://soloist.ai/evmyths) | Common misconceptions (built with Solo) |
 | [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
 | [Meta and privacy](https://turpin.dev/meta/) | And how to leave it |
