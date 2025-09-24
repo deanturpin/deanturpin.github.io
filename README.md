@@ -37,14 +37,13 @@
 
 | Title | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev |
 | [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
 | [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
 | [keyq](https://github.com/deanturpin/keyq) | key-based EQ plugin for Logic Pro |
 | [voski](https://turpin.dev/voski/) | Bidirectional translator |
 | [konda](https://turpin.dev/konda) | Polyphonic synth plugin with built-in FFT |
 | [roomtone](https://turpin.dev/roomtone) | Ambience generator using room feedback |
-| [hustle](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
+| [projects](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
 | [deanturpin/asterisk](https://hub.docker.com/r/deanturpin/asterisk) | Asterisk container |
 | [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container from source |
