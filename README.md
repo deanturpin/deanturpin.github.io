@@ -1,10 +1,14 @@
 ## Links
 
-- [Meeting cost timer](/cost)
 - [GitHub](https://github.com/deanturpin)
 - [GitLab](https://gitlab.com/deanturpin)
 - [LinkedIn](https://www.linkedin.com/in/deanturpin)
 - [Docker hub](https://hub.docker.com/u/deanturpin)
+
+## Recent activity
+
+- [turbeaux.uk](https://github.com/deanturpin/turbeaux.uk) - Dean Turbeaux's music website
+- [fix](https://github.com/deanturpin/fix) - Test of Claude Code at implementing the FIX protocol
 
 ## Currently reading
 
