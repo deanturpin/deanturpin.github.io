@@ -5,11 +5,6 @@
 - [LinkedIn](https://www.linkedin.com/in/deanturpin)
 - [Docker hub](https://hub.docker.com/u/deanturpin)
 
-## Recent activity
-
-- [turbeaux.uk](https://github.com/deanturpin/turbeaux.uk) - Dean Turbeaux's music website
-- [fix](https://github.com/deanturpin/fix) - Test of Claude Code at implementing the FIX protocol
-
 ## Currently reading
 
 - [How Equal Temperament Ruined Harmony -- Ross W. Duffin](https://www.goodreads.com/book/show/168325.How_Equal_Temperament_Ruined_Harmony)
@@ -33,6 +28,8 @@
 
 | Title | Description |
 |-|-|
+| [turbeaux.uk](https://github.com/deanturpin/turbeaux.uk) | Dean Turbeaux's music website |
+| [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
 | [keyq](https://turpin.dev/efefte) | key-based EQ plugin for Logic Pro |
 | [voski](https://turpin.dev/voski/) | Bidirectional translator |
 | [konda](https://turpin.dev/ts) | Polyphonic synth plugin with built-in FFT |
