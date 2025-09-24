@@ -1,0 +1,10 @@
+---
+layout: base.njk
+title: Dean Turpin
+---
+
+# Dean Turpin
+
+<div class="build-timestamp">Built: {{ page.date }}</div>
+
+{{ "README.md" | readFile | markdown | safe }}
