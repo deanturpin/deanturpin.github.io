@@ -30,6 +30,7 @@
 | Title | Description |
 |-|-|
 | [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev |
+| [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
 | [turbeaux.uk](https://github.com/deanturpin/turbeaux.uk) | Dean Turbeaux's music website |
 | [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
 | [keyq](https://turpin.dev/efefte) | key-based EQ plugin for Logic Pro |
