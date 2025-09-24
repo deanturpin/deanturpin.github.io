@@ -15,6 +15,7 @@
 |-|-|
 | `/init` | Analyse codebase and create CLAUDE.md |
 | `/model` | Show current model information |
+| `/status` | Check task progress and todo list |
 | `/help` | Get help with Claude Code features |
 | `/web` | Search the web for current information |
 | `/edit filename:line` | Open file at specific line in editor |
@@ -78,6 +79,7 @@
 - Arturia MiniLab 3 Midi Controller Keyboard
 - Dean travel guitar
 - Ernie Ball Extra Slinky
+- Serena (2006 Honda Civic Type S GT)
 
 <!--
 - MicroKorg
