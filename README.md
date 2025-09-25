@@ -15,6 +15,7 @@
 |-|-|
 | `/init` | Analyse codebase and create CLAUDE.md |
 | `/model` | Show current model information |
+| `/models` |  List available models |
 | `/status` | Check task progress and todo list |
 | `/help` | Get help with Claude Code features |
 | `/web` | Search the web for current information |
@@ -24,6 +25,10 @@
 | Agent delegation | Specialised agents for complex tasks |
 | File operations | Read, Write, Edit, Glob, Grep tools available |
 | Git integration | Auto-commit with 🤖 emoji when appropriate |
+
+### Planning mode
+
+You can put Claude explicitly into read-only mode by typing `/models` and selecting planning mode.
 
 ## Top level domains
 
