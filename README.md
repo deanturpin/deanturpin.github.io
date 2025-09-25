@@ -46,6 +46,16 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 | File operations | Read, Write, Edit, Glob, Grep tools available |
 | Git integration | Auto-commit with 🤖 emoji when appropriate |
 
+### How big a think?
+
+You can make Claude try a bit harder (if you cross his palm with tokens).
+
+| Level	| Tokens |
+|-|-|
+| think	| 4,000 |
+| megathink	| 10,000 |
+| ultrathink | 31,999 |
+
 ### Planning mode
 
 You can put Claude explicitly into read-only mode by typing `/models` and selecting planning mode.
