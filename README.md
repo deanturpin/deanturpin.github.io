@@ -24,7 +24,10 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
 - [superdean.com](https://superdean.com/) -- watchmaking resources
+
+<!--
 - [cpp.run](https://cpp.run/)
+-->
 
 ## Claude Code crib sheet
 
@@ -47,7 +50,7 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 You can put Claude explicitly into read-only mode by typing `/models` and selecting planning mode.
 
-## Side projects
+## Other side projects
 
 | Title | Description |
 |-|-|
