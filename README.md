@@ -1,13 +1,33 @@
 ## Links
 
-- [GitHub](https://github.com/deanturpin)
-- [GitLab](https://gitlab.com/deanturpin)
-- [LinkedIn](https://www.linkedin.com/in/deanturpin)
-- [Docker hub](https://hub.docker.com/u/deanturpin)
+[GitHub](https://github.com/deanturpin)
+    | [GitLab](https://gitlab.com/deanturpin)
+    | [LinkedIn](https://www.linkedin.com/in/deanturpin)
+    | [Docker hub](https://hub.docker.com/u/deanturpin)
 
 ## Currently reading
 
 - [How Equal Temperament Ruined Harmony -- Ross W. Duffin](https://www.goodreads.com/book/show/168325.How_Equal_Temperament_Ruined_Harmony)
+
+## Active development
+
+| Title | Description |
+|-|-|
+| [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
+| [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
+| [keyq](https://github.com/deanturpin/keyq) | key-based EQ plugin for Logic Pro |
+| [voski](https://turpin.dev/voski/) | Bidirectional translator |
+| [konda](https://turpin.dev/konda) | Polyphonic synth plugin with built-in FFT |
+| [roomtone](https://turpin.dev/roomtone) | Ambience generator using room feedback |
+| [projects](https://github.com/deanturpin/projects) | All the projects I need more time to explore |
+
+## Top level domains
+
+- [turpin.dev](https://turpin.dev/) -- landing page for everything
+- [germs.dev](https://germs.dev/) -- online logbook (since 2009)
+- [turbeaux.uk](https://turbeaux.uk/) -- music resources
+- [superdean.com](https://superdean.com/) -- watchmaking resources
+- [cpp.run](https://cpp.run/)
 
 ## Claude Code crib sheet
 
@@ -30,25 +50,10 @@
 
 You can put Claude explicitly into read-only mode by typing `/models` and selecting planning mode.
 
-## Top level domains
-
-- [turpin.dev](https://turpin.dev/) -- landing page for everything
-- [germs.dev](https://germs.dev/) -- online logbook (since 2009)
-- [turbeaux.uk](https://turbeaux.uk/) -- music resources
-- [superdean.com](https://superdean.com/) -- watchmaking resources
-- [cpp.run](https://cpp.run/)
-
 ## Side projects
 
 | Title | Description |
 |-|-|
-| [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
-| [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
-| [keyq](https://github.com/deanturpin/keyq) | key-based EQ plugin for Logic Pro |
-| [voski](https://turpin.dev/voski/) | Bidirectional translator |
-| [konda](https://turpin.dev/konda) | Polyphonic synth plugin with built-in FFT |
-| [roomtone](https://turpin.dev/roomtone) | Ambience generator using room feedback |
-| [projects](https://github.com/deanturpin/projects) | Project ideas explored with Claude Code |
 | [deanturpin/shh](https://hub.docker.com/r/deanturpin/shh) | Command line packet inspector |
 | [deanturpin/asterisk](https://hub.docker.com/r/deanturpin/asterisk) | Asterisk container |
 | [deanturpin/gcc](https://hub.docker.com/r/deanturpin/gcc) | Nightly gcc container from source |
@@ -63,6 +68,7 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 | [Out and about in Brighton](https://turpin.dev/brighton/) | Things to see and do |
 | [Meta and privacy](https://turpin.dev/meta/) | And how to leave it |
 
+<!--
 ## New candidates
 
 - GoAT: Go trading strategy backtester
@@ -78,6 +84,7 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 - Bill splitter
 - Car swap
 - Multi-platform song search: Spotify, Tidal, Beatport etc
+-->
 
 ## Studio
 
@@ -89,13 +96,6 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 - Arturia MiniLab 3 Midi Controller Keyboard
 - Dean travel guitar
 - Ernie Ball Extra Slinky
-- Serena
-
-<!--
-- MicroKorg
-- [Akai MIDImix](https://www.akaipro.com/midimix)
-- Roland 303 Groovebox
--->
 
 ## Pipes
 
@@ -125,6 +125,3 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 [![deanturpin/ev](https://gitlab.com/deanturpin/ev/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/ev/-/pipelines)
 [![deanturpin/constd](https://gitlab.com/deanturpin/constd/badges/main/pipeline.svg)](https://gitlab.com/deanturpin/constd/-/pipelines)
 
-## Skills
-
-[![skills timeline](https://skills.turpin.dev/skills.png)](https://skills.turpin.dev/skills.png)
