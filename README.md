@@ -20,7 +20,7 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 ## Top level domains
 
-- [turpin.dev](https://turpin.dev/) -- landing page for everything
+- [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
 - [superdean.com](https://superdean.com/) -- watchmaking resources
