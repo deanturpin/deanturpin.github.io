@@ -10,7 +10,7 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 | Title | Description |
 |-|-|
-| [novono](https://github.com/deanturpin/novono) | Voice note transcription PWA (offline, private) |
+| [novono](https://turpin.dev/novono) | Voice note transcription PWA (offline, private) |
 | [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
 | [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
 | [keyq](https://github.com/deanturpin/keyq) | key-based EQ plugin for Logic Pro |
