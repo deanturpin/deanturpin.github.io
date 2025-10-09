@@ -10,6 +10,7 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 | Title | Description |
 |-|-|
+| [chmap](https://turpin.dev/chmap/) | Companies House plotter |
 | [novono](https://turpin.dev/novono) | Voice note transcription PWA (offline, private) |
 | [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
 | [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
