@@ -81,7 +81,7 @@ function generateMarkdownTable(repos) {
 
 function updateReadme(newSection) {
   const readmePath = 'README.md';
-  let content = fs.readFileSync(readmePath, 'utf8');
+  const content = fs.readFileSync(readmePath, 'utf8');
 
   // Find the Active development section and replace it
   // Match from "## Active development" to the next "##" heading
@@ -92,23 +92,8 @@ function updateReadme(newSection) {
     process.exit(1);
   }
 
-  content = content.replace(regex, newSection);
-
-  // Add or update the "Rendered with love" statement after the first heading
-  const ubuntuVersion = process.env.UBUNTU_VERSION || 'your local machine';
-  const timestamp = new Date().toUTCString();
-  const renderedStatement = `\n*Rendered with love by ${ubuntuVersion} at ${timestamp}*\n`;
-
-  // Find the first heading (lines starting with links) and add statement after it
-  const firstHeadingRegex = /^(\[GitHub\][\s\S]*?)(\n\n)/m;
-
-  // Remove any existing "Rendered with love" line first
-  content = content.replace(/\n\*Rendered with love by.*?\*\n/g, '');
-
-  // Add the new statement
-  content = content.replace(firstHeadingRegex, `$1${renderedStatement}$2`);
-
-  fs.writeFileSync(readmePath, content, 'utf8');
+  const updatedContent = content.replace(regex, newSection);
+  fs.writeFileSync(readmePath, updatedContent, 'utf8');
 
   console.log('README.md updated successfully');
 }
