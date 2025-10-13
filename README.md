@@ -12,9 +12,9 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 | Title | Description |
 |-|-|
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev |
 | [germs.dev](https://github.com/deanturpin/germs.dev) | Online logbook, curated since 2009 |
 | [stt](https://turpin.dev/stt/) | Offline speech to text in a web browser |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev |
 | [novono](http://turpin.dev/novono/) | voice note transcriber |
 | [projects](https://github.com/deanturpin/projects) | Project ideas |
 | [voski](http://turpin.dev/voski/) | Realtime translation app |
