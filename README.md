@@ -8,17 +8,20 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 ## Active development
 
+<!-- Auto-generated on 2025-10-13 by update-active-dev.js -->
+
 | Title | Description |
 |-|-|
-| [chmap](https://turpin.dev/chmap/) | Companies House plotter |
-| [novono](https://turpin.dev/novono) | Voice note transcription PWA (offline, private) |
-| [t](https://github.com/deanturpin/t) | Ideas for creating a low volume retail website (T-shirts) |
-| [fix](https://github.com/deanturpin/fix) | Test of Claude Code at implementing the FIX protocol |
-| [keyq](https://github.com/deanturpin/keyq) | key-based EQ plugin for Logic Pro |
-| [voski](https://turpin.dev/voski/) | Bidirectional translator |
-| [konda](https://turpin.dev/konda) | Polyphonic synth plugin with built-in FFT |
-| [roomtone](https://turpin.dev/roomtone) | Ambience generator using room feedback |
-| [projects](https://github.com/deanturpin/projects) | All the projects I need more time to explore |
+| [germs.dev](https://github.com/deanturpin/germs.dev) | Online logbook, curated since 2009 |
+| [stt](https://turpin.dev/stt/) | Offline speech to text in a web browser |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev |
+| [novono](http://turpin.dev/novono/) | voice note transcriber |
+| [projects](https://github.com/deanturpin/projects) | Project ideas |
+| [voski](http://turpin.dev/voski/) | Realtime translation app |
+| [chmap](http://turpin.dev/chmap/) | Companies House API explorer |
+| [turbeaux.uk](https://turbeaux.uk/) | Dean Turbeaux's music website |
+| [airport](https://github.com/deanturpin/airport) | An investigation into airport timing |
+| [charity](https://github.com/deanturpin/charity) | No description provided |
 
 ## Top level domains
 
