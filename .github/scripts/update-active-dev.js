@@ -113,8 +113,8 @@ function generateMarkdownTable(repos) {
 
   let markdown = '## Active development\n\n';
   markdown += `Top ${repos.length} recently updated projects. <!-- Auto-generated on ${timestamp} -->\n\n`;
-  markdown += '| Website | Description | Pipeline |\n';
-  markdown += '|-|-|-|\n';
+  markdown += '| Website | Description |\n';
+  markdown += '|-|-|\n';
 
   for (const repo of repos) {
     // Store ISO timestamp for client-side relative time calculation
@@ -132,7 +132,10 @@ function generateMarkdownTable(repos) {
       badge = `[![→](https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl})`;
     }
 
-    markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
+    // Put badge before description
+    const description = `${badge} ${repo.description}`;
+
+    markdown += `| ${title} | ${description} |\n`;
   }
 
   return markdown;
