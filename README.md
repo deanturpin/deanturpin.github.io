@@ -8,8 +8,6 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 ## Active development
 
-<!-- Auto-generated at build time from top 10 most recently updated GitHub repos -->
-
 ## Top level domains
 
 - [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
