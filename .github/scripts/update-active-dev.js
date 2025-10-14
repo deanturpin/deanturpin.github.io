@@ -119,7 +119,7 @@ function generateMarkdownTable(repos) {
   for (const repo of repos) {
     // Store ISO timestamp for client-side relative time calculation
     const timestamp = new Date(repo.updated).toISOString();
-    const title = `[${repo.name}](${repo.url}) <sub class="repo-time" data-time="${timestamp}"></sub>`;
+    const title = `[${repo.name}](${repo.url}) <sup class="repo-time" data-time="${timestamp}"></sup>`;
 
     // Generate badge based on actual workflow status
     let badge;
