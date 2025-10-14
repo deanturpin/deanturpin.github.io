@@ -97,7 +97,7 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 - Dean travel guitar
 - Ernie Ball Extra Slinky
 
-## Pipes
+## GitLab Pipes (deprecated)
 
 [![germs-dev/concurrency-support-library](https://gitlab.com/germs-dev/concurrency-support-library/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/concurrency-support-library/-/pipelines)
 [![germs-dev/cpp](https://gitlab.com/germs-dev/cpp/badges/main/pipeline.svg)](https://gitlab.com/germs-dev/cpp/-/pipelines)
