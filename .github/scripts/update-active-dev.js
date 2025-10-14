@@ -56,6 +56,8 @@ async function getTopRepos() {
       name: repo.name,
       description: repo.description || 'No description provided',
       url: repo.homepage || repo.html_url,
+      githubUrl: repo.html_url,
+      fullName: repo.full_name,
       updated: repo.updated_at
     }));
 
@@ -90,13 +92,14 @@ function generateMarkdownTable(repos) {
   let markdown = '## Active development\n\n';
   markdown += `Top ${repos.length} recently updated projects.\n\n`;
   markdown += `<!-- Auto-generated on ${timestamp} by update-active-dev.js -->\n\n`;
-  markdown += '| Title | Description | Last updated |\n';
-  markdown += '|-|-|-|\n';
+  markdown += '| Title | Description | Repo | Last updated |\n';
+  markdown += '|-|-|-|-|\n';
 
   for (const repo of repos) {
     const title = `[${repo.name}](${repo.url})`;
+    const githubLink = `[${repo.fullName}](${repo.githubUrl})`;
     const relativeTime = getRelativeTime(repo.updated);
-    markdown += `| ${title} | ${repo.description} | ${relativeTime} |\n`;
+    markdown += `| ${title} | ${repo.description} | ${githubLink} | ${relativeTime} |\n`;
   }
 
   return markdown;
