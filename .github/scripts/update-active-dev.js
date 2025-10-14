@@ -122,14 +122,15 @@ function generateMarkdownTable(repos) {
     const title = `[${repo.name}](${repo.url}) <sup class="repo-time" data-time="${timestamp}"></sup>`;
 
     // Generate badge based on actual workflow status
+    // Use HTML img tag to ensure inline display
     let badge;
     if (repo.workflowStatus === 'success') {
-      badge = `[![✓](https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl}/actions)`;
+      badge = `<a href="${repo.githubUrl}/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a>`;
     } else if (repo.workflowStatus === 'failure') {
-      badge = `[![✗](https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl}/actions)`;
+      badge = `<a href="${repo.githubUrl}/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a>`;
     } else {
       // No workflow or other status
-      badge = `[![→](https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl})`;
+      badge = `<a href="${repo.githubUrl}"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a>`;
     }
 
     // Put badge before description
