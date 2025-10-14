@@ -99,9 +99,9 @@ function generateMarkdownTable(repos) {
     const timestamp = new Date(repo.updated).toISOString();
     const title = `[${repo.name}](${repo.url}) <sub class="repo-time" data-time="${timestamp}"></sub>`;
 
-    // Use GitHub Actions status badge with compact styling
+    // Use GitHub Actions status badge with compact flat-square style
     // Color indicates status: green=passing, red=failing, grey=no workflow
-    const badge = `[![](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?style=for-the-badge&logo=github&logoColor=white&label=)](${repo.githubUrl}/actions)`;
+    const badge = `[![](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?style=flat-square&logo=github&logoColor=white&label=)](${repo.githubUrl}/actions)`;
 
     markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
