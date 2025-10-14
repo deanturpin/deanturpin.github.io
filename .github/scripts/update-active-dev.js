@@ -92,14 +92,23 @@ function generateMarkdownTable(repos) {
   let markdown = '## Active development\n\n';
   markdown += `Top ${repos.length} recently updated projects.\n\n`;
   markdown += `<!-- Auto-generated on ${timestamp} by update-active-dev.js -->\n\n`;
-  markdown += '| Website | Description | Repo |\n';
+  markdown += '| Website | Description | Pipeline |\n';
   markdown += '|-|-|-|\n';
 
   for (const repo of repos) {
     const relativeTime = getRelativeTime(repo.updated);
     const title = `[${repo.name}](${repo.url}) <sub>${relativeTime}</sub>`;
-    const githubLink = `[${repo.fullName}](${repo.githubUrl})`;
-    markdown += `| ${title} | ${repo.description} | ${githubLink} |\n`;
+
+    // Try GitLab badge first (checking common patterns), fallback to GitHub Actions
+    // Common GitLab patterns: germs-dev/project or deanturpin/project on GitLab
+    const gitlabUser = 'deanturpin';
+    const gitlabBadge = `[![](https://gitlab.com/${gitlabUser}/${repo.name}/badges/main/pipeline.svg)](https://gitlab.com/${gitlabUser}/${repo.name}/-/pipelines)`;
+    const githubBadge = `[![](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?label=&style=flat-square)](${repo.githubUrl})`;
+
+    // Use GitLab badge as default, or GitHub badge as fallback
+    const badge = gitlabBadge;
+
+    markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
 
   return markdown;
