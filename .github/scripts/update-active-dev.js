@@ -92,14 +92,14 @@ function generateMarkdownTable(repos) {
   let markdown = '## Active development\n\n';
   markdown += `Top ${repos.length} recently updated projects.\n\n`;
   markdown += `<!-- Auto-generated on ${timestamp} by update-active-dev.js -->\n\n`;
-  markdown += '| Title | Description | Repo | Last updated |\n';
-  markdown += '|-|-|-|-|\n';
+  markdown += '| Website | Description | Repo |\n';
+  markdown += '|-|-|-|\n';
 
   for (const repo of repos) {
-    const title = `[${repo.name}](${repo.url})`;
-    const githubLink = `[${repo.fullName}](${repo.githubUrl})`;
     const relativeTime = getRelativeTime(repo.updated);
-    markdown += `| ${title} | ${repo.description} | ${githubLink} | ${relativeTime} |\n`;
+    const title = `[${repo.name}](${repo.url}) <sub>${relativeTime}</sub>`;
+    const githubLink = `[${repo.fullName}](${repo.githubUrl})`;
+    markdown += `| ${title} | ${repo.description} | ${githubLink} |\n`;
   }
 
   return markdown;
