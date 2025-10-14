@@ -96,11 +96,13 @@ function generateMarkdownTable(repos) {
   markdown += '|-|-|-|\n';
 
   for (const repo of repos) {
-    const relativeTime = getRelativeTime(repo.updated);
-    const title = `[${repo.name}](${repo.url}) <sub>${relativeTime}</sub>`;
+    // Store ISO timestamp for client-side relative time calculation
+    const timestamp = new Date(repo.updated).toISOString();
+    const title = `[${repo.name}](${repo.url}) <sub class="repo-time" data-time="${timestamp}"></sub>`;
 
-    // Use GitHub Actions status badge (shows workflow status or "no status" if none exists)
-    const badge = `[![Actions](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?style=flat-square&label=)](${repo.githubUrl}/actions)`;
+    // Use GitHub Actions status badge with consistent dimensions
+    // The color will be auto-determined: green=passing, red=failing, grey=no status
+    const badge = `[![build](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?style=flat-square&label=build)](${repo.githubUrl}/actions)`;
 
     markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
