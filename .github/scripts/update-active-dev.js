@@ -99,14 +99,8 @@ function generateMarkdownTable(repos) {
     const relativeTime = getRelativeTime(repo.updated);
     const title = `[${repo.name}](${repo.url}) <sub>${relativeTime}</sub>`;
 
-    // Try GitLab badge first (checking common patterns), fallback to GitHub Actions
-    // Common GitLab patterns: germs-dev/project or deanturpin/project on GitLab
-    const gitlabUser = 'deanturpin';
-    const gitlabBadge = `[![](https://gitlab.com/${gitlabUser}/${repo.name}/badges/main/pipeline.svg)](https://gitlab.com/${gitlabUser}/${repo.name}/-/pipelines)`;
-    const githubBadge = `[![](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?label=&style=flat-square)](${repo.githubUrl})`;
-
-    // Use GitLab badge as default, or GitHub badge as fallback
-    const badge = gitlabBadge;
+    // Create a simple badge using shields.io that shows the repo name
+    const badge = `[![build](https://img.shields.io/badge/build-check-blue?style=flat-square)](https://gitlab.com/deanturpin/${repo.name}/-/pipelines)`;
 
     markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
