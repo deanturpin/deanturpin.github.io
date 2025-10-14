@@ -39,6 +39,23 @@ function fetchGitHubAPI(url) {
   });
 }
 
+async function getWorkflowStatus(fullName) {
+  try {
+    const runs = await fetchGitHubAPI(
+      `https://api.github.com/repos/${fullName}/actions/runs?per_page=1&status=completed`
+    );
+
+    if (runs.workflow_runs && runs.workflow_runs.length > 0) {
+      const latestRun = runs.workflow_runs[0];
+      return latestRun.conclusion; // success, failure, cancelled, etc.
+    }
+    return null; // No workflows
+  } catch (error) {
+    console.log(`No workflow status for ${fullName}`);
+    return null;
+  }
+}
+
 async function getTopRepos() {
   console.log(`Fetching repositories for ${GITHUB_USERNAME}...`);
 
@@ -51,18 +68,23 @@ async function getTopRepos() {
   const filtered = repos
     .filter(repo => !repo.fork) // Exclude forks
     .filter(repo => !repo.archived) // Exclude archived repos
-    .slice(0, MAX_REPOS) // Take top 10
-    .map(repo => ({
+    .slice(0, MAX_REPOS); // Take top 10
+
+  // Fetch workflow status for each repo
+  const enriched = await Promise.all(
+    filtered.map(async repo => ({
       name: repo.name,
       description: repo.description || 'No description provided',
       url: repo.homepage || repo.html_url,
       githubUrl: repo.html_url,
       fullName: repo.full_name,
-      updated: repo.updated_at
-    }));
+      updated: repo.updated_at,
+      workflowStatus: await getWorkflowStatus(repo.full_name)
+    }))
+  );
 
-  console.log(`Found ${filtered.length} active repositories`);
-  return filtered;
+  console.log(`Found ${enriched.length} active repositories`);
+  return enriched;
 }
 
 function getRelativeTime(dateString) {
@@ -99,8 +121,16 @@ function generateMarkdownTable(repos) {
     const timestamp = new Date(repo.updated).toISOString();
     const title = `[${repo.name}](${repo.url}) <sub class="repo-time" data-time="${timestamp}"></sub>`;
 
-    // Simple GitHub link badge - clean and always works
-    const badge = `[![→](https://img.shields.io/badge/→-181717?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl})`;
+    // Generate badge based on actual workflow status
+    let badge;
+    if (repo.workflowStatus === 'success') {
+      badge = `[![✓](https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl}/actions)`;
+    } else if (repo.workflowStatus === 'failure') {
+      badge = `[![✗](https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl}/actions)`;
+    } else {
+      // No workflow or other status
+      badge = `[![→](https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white)](${repo.githubUrl})`;
+    }
 
     markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
