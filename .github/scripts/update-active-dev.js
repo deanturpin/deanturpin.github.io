@@ -99,8 +99,8 @@ function generateMarkdownTable(repos) {
     const relativeTime = getRelativeTime(repo.updated);
     const title = `[${repo.name}](${repo.url}) <sub>${relativeTime}</sub>`;
 
-    // Simple badge linking to GitHub repo
-    const badge = `[![→](https://img.shields.io/badge/→-repo-blue?style=flat-square)](${repo.githubUrl})`;
+    // Use GitHub Actions status badge (shows workflow status or "no status" if none exists)
+    const badge = `[![Actions](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?style=flat-square&label=)](${repo.githubUrl}/actions)`;
 
     markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
