@@ -99,8 +99,8 @@ function generateMarkdownTable(repos) {
     const relativeTime = getRelativeTime(repo.updated);
     const title = `[${repo.name}](${repo.url}) <sub>${relativeTime}</sub>`;
 
-    // Create a simple badge using shields.io that shows the repo name
-    const badge = `[![build](https://img.shields.io/badge/build-check-blue?style=flat-square)](https://gitlab.com/deanturpin/${repo.name}/-/pipelines)`;
+    // Use GitHub Actions workflow status badge
+    const badge = `[![build](https://img.shields.io/github/actions/workflow/status/${repo.fullName}/deploy.yml?style=flat-square&label=)](${repo.githubUrl}/actions)`;
 
     markdown += `| ${title} | ${repo.description} | ${badge} |\n`;
   }
