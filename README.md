@@ -8,20 +8,7 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 ## Active development
 
-<!-- Auto-generated on 2025-10-14 by update-active-dev.js -->
-
-| Title | Description | Last updated |
-|-|-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io) | turpin.dev | 4 minutes ago |
-| [germs.dev](https://github.com/deanturpin/germs.dev) | Online logbook, curated since 2009 | 22 hours ago |
-| [stt](https://turpin.dev/stt/) | Offline speech to text in a web browser | 1 day ago |
-| [novono](http://turpin.dev/novono/) | voice note transcriber | 2 days ago |
-| [projects](https://github.com/deanturpin/projects) | Project ideas | 2 days ago |
-| [voski](http://turpin.dev/voski/) | Realtime translation app | 2 days ago |
-| [chmap](http://turpin.dev/chmap/) | Companies House API explorer | 3 days ago |
-| [turbeaux.uk](https://turbeaux.uk/) | Dean Turbeaux's music website | 6 days ago |
-| [airport](https://github.com/deanturpin/airport) | An investigation into airport timing | 1 week ago |
-| [charity](https://github.com/deanturpin/charity) | No description provided | 2 weeks ago |
+<!-- Auto-generated at build time from top 10 most recently updated GitHub repos -->
 
 ## Top level domains
 
