@@ -90,8 +90,7 @@ function generateMarkdownTable(repos) {
   const timestamp = new Date().toISOString().split('T')[0];
 
   let markdown = '## Active development\n\n';
-  markdown += `Top ${repos.length} recently updated projects.\n\n`;
-  markdown += `<!-- Auto-generated on ${timestamp} by update-active-dev.js -->\n\n`;
+  markdown += `Top ${repos.length} recently updated projects. <!-- Auto-generated on ${timestamp} -->\n\n`;
   markdown += '| Website | Description | Pipeline |\n';
   markdown += '|-|-|-|\n';
 
