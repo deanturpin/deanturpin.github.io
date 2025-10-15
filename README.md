@@ -1,8 +1,4 @@
-
-[GitHub](https://github.com/deanturpin)
-    | [GitLab](https://gitlab.com/deanturpin)
-    | [LinkedIn](https://www.linkedin.com/in/deanturpin)
-    | [Docker hub](https://hub.docker.com/u/deanturpin)
+[GitHub](https://github.com/deanturpin) | [GitLab](https://gitlab.com/deanturpin) | [LinkedIn](https://www.linkedin.com/in/deanturpin) | [Docker hub](https://hub.docker.com/u/deanturpin)
 
 Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](https://www.goodreads.com/book/show/168325.How_Equal_Temperament_Ruined_Harmony)
 
