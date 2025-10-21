@@ -4,6 +4,21 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 ## Active development
 
+Top 10 recently updated projects. <!-- Auto-generated on 2025-10-21 -->
+
+| Website | Description |
+|-|-|
+| [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-10-20T21:51:48.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
+| [projects](https://github.com/deanturpin/projects) <sup class="repo-time" data-time="2025-10-19T22:08:48.000Z"></sup> | <a href="https://github.com/deanturpin/projects/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Exploring side hustles with Claude (see the tickets) |
+| [cost](http://turpin.dev/cost/) <sup class="repo-time" data-time="2025-10-16T08:14:40.000Z"></sup> | <a href="https://github.com/deanturpin/cost/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Web-based meeting cost calculator |
+| [konda](http://turpin.dev/konda/) <sup class="repo-time" data-time="2025-10-16T08:12:49.000Z"></sup> | <a href="https://github.com/deanturpin/konda/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Polyphonic synth plugin for any DAW |
+| [voski](http://turpin.dev/voski/) <sup class="repo-time" data-time="2025-10-16T07:41:23.000Z"></sup> | <a href="https://github.com/deanturpin/voski/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Realtime translation app |
+| [deanturpin.github.io](https://turpin.dev/) <sup class="repo-time" data-time="2025-10-15T21:29:11.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2025-10-14T11:57:52.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
+| [chmap](http://turpin.dev/chmap/) <sup class="repo-time" data-time="2025-10-14T11:57:07.000Z"></sup> | <a href="https://github.com/deanturpin/chmap/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Plotting Companies House data |
+| [stt](https://turpin.dev/stt/) <sup class="repo-time" data-time="2025-10-12T18:26:59.000Z"></sup> | <a href="https://github.com/deanturpin/stt/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Offline speech to text in a web browser |
+| [novono](http://turpin.dev/novono/) <sup class="repo-time" data-time="2025-10-12T08:43:20.000Z"></sup> | <a href="https://github.com/deanturpin/novono/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> voice note transcriber |
+
 ## Top level domains
 
 - [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
