@@ -4,13 +4,13 @@ Currently reading: [How Equal Temperament Ruined Harmony -- Ross W. Duffin](http
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2025-11-04 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2025-11-05 -->
 
 | Website | Description |
 |-|-|
-| [stooge](https://hub.docker.com/r/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-03T23:50:38.000Z"></sup> | <a href="https://github.com/deanturpin/stooge"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
-| [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-11-03T22:45:06.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
-| [deanturpin.github.io](https://turpin.dev/) <sup class="repo-time" data-time="2025-11-03T00:03:09.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [stooge](https://hub.docker.com/r/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-04T23:47:22.000Z"></sup> | <a href="https://github.com/deanturpin/stooge"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
+| [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-11-04T13:16:48.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
+| [deanturpin.github.io](https://turpin.dev/) <sup class="repo-time" data-time="2025-11-04T00:02:59.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [shh](https://hub.docker.com/r/deanturpin/shh) <sup class="repo-time" data-time="2025-11-02T09:50:02.000Z"></sup> | <a href="https://github.com/deanturpin/shh"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> pcap packet sniffer |
 | [gcc](https://hub.docker.com/r/deanturpin/gcc) <sup class="repo-time" data-time="2025-11-02T09:49:39.000Z"></sup> | <a href="https://github.com/deanturpin/gcc"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Nightly build of gcc from source |
 | [cs](https://github.com/deanturpin/cs) <sup class="repo-time" data-time="2025-11-02T09:43:49.000Z"></sup> | <a href="https://github.com/deanturpin/cs"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Teach yourself C++ in 45 years: a survival guide for C++/Linux developers |
