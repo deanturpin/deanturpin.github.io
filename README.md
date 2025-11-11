@@ -1,6 +1,6 @@
 [GitHub](https://github.com/deanturpin) | [GitLab](https://gitlab.com/deanturpin) | [LinkedIn](https://www.linkedin.com/in/deanturpin) | [Docker hub](https://hub.docker.com/u/deanturpin)
 
-Currently reading: [Electronic and Experimental Music: Technology, Music, and Culture -- Thom Holmes](https://www.routledge.com/Electronic-and-Experimental-Music-Technology-Music-and-Culture/Holmes/p/book/9781138365469)
+Currently reading: [Electronic and Experimental Music: Technology, Music, and Culture -- Thom Holmes](https://www.taylorfrancis.com/books/mono/10.4324/9780203128428/electronic-experimental-music-thom-holmes)
 
 ## Active development
 
