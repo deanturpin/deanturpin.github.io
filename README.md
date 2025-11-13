@@ -4,12 +4,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2025-11-12 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2025-11-13 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-11-11T23:33:35.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
-| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-11T21:46:28.000Z"></sup> | <a href="https://github.com/deanturpin/stooge"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
+| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-12T22:23:27.000Z"></sup> | <a href="https://github.com/deanturpin/stooge"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-11-12T00:02:58.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-11-11T21:17:29.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [shh](https://hub.docker.com/r/deanturpin/shh) <sup class="repo-time" data-time="2025-11-02T09:50:02.000Z"></sup> | <a href="https://github.com/deanturpin/shh"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> pcap packet sniffer |
 | [gcc](https://hub.docker.com/r/deanturpin/gcc) <sup class="repo-time" data-time="2025-11-02T09:49:39.000Z"></sup> | <a href="https://github.com/deanturpin/gcc"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Nightly build of gcc from source |
