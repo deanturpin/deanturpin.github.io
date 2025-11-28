@@ -4,12 +4,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2025-11-27 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2025-11-28 -->
 
 | Website | Description |
 |-|-|
-| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-26T09:40:49.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-11-26T00:02:59.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-11-27T00:02:55.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-26T09:40:49.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 | [projects](https://github.com/deanturpin/projects) <sup class="repo-time" data-time="2025-11-25T22:23:35.000Z"></sup> | <a href="https://github.com/deanturpin/projects/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Exploring side hustles with Claude (see the tickets) |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2025-11-25T22:23:35.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-11-25T19:39:50.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
