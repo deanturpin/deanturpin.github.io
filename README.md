@@ -4,11 +4,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2025-11-28 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2025-11-29 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-11-27T00:02:55.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2025-11-28T00:09:07.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-11-28T00:03:09.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-11-26T09:40:49.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 | [projects](https://github.com/deanturpin/projects) <sup class="repo-time" data-time="2025-11-25T22:23:35.000Z"></sup> | <a href="https://github.com/deanturpin/projects/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Exploring side hustles with Claude (see the tickets) |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2025-11-25T22:23:35.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
@@ -17,7 +18,6 @@ Top 10 recently updated projects. <!-- Auto-generated on 2025-11-28 -->
 | [superdean.com](https://github.com/deanturpin/superdean.com) <sup class="repo-time" data-time="2025-11-25T19:37:14.000Z"></sup> | <a href="https://github.com/deanturpin/superdean.com/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> No description provided |
 | [llm](https://github.com/deanturpin/llm) <sup class="repo-time" data-time="2025-11-14T11:32:09.000Z"></sup> | <a href="https://github.com/deanturpin/llm"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Local LLM |
 | [shh](https://hub.docker.com/r/deanturpin/shh) <sup class="repo-time" data-time="2025-11-13T08:29:42.000Z"></sup> | <a href="https://github.com/deanturpin/shh"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> pcap packet sniffer |
-| [gcc](https://hub.docker.com/r/deanturpin/gcc) <sup class="repo-time" data-time="2025-11-02T09:49:39.000Z"></sup> | <a href="https://github.com/deanturpin/gcc"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Nightly build of gcc from source |
 
 ## Top level domains
 
