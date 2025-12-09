@@ -4,11 +4,11 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2025-12-08 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2025-12-09 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-12-07T00:03:07.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-12-08T00:03:09.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-12-05T13:35:03.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-12-04T14:04:36.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [projects](https://github.com/deanturpin/projects) <sup class="repo-time" data-time="2025-12-04T13:51:45.000Z"></sup> | <a href="https://github.com/deanturpin/projects/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Exploring side hustles with Claude (see the tickets) |
