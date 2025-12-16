@@ -2,6 +2,10 @@
 
 Currently reading: [Electronic and Experimental Music: Technology, Music, and Culture – Thom Holmes](https://www.taylorfrancis.com/books/mono/10.4324/9780203128428/electronic-experimental-music-thom-holmes)
 
+## Highlighted projects
+
+- [Meeting Cost Timer](https://turpin.dev/cost/) – Calculate the true cost of meetings in real-time
+
 ## Active development
 
 Top 10 recently updated projects. <!-- Auto-generated on 2025-12-16 -->
