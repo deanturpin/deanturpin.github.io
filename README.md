@@ -8,6 +8,8 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 - [Stooge](https://github.com/deanturpin/stooge) – Network traffic replayer with Lua dissector support
 - [idapp](https://idapp.io/) – Multiple platforms song ID app
 - [wavee](https://github.com/deanturpin/wavee) – A music sharing platform with beautiful audio visualisations, focussing on security
+- [GCC Docker Image](https://hub.docker.com/r/deanturpin/gcc) – Nightly build of GCC from source
+- [EV Myths](https://soloist.ai/evmyths) – Common misconceptions about electric vehicles
 
 ## Active development
 
