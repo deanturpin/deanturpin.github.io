@@ -5,6 +5,9 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 ## Highlighted projects
 
 - [Meeting Cost Timer](https://turpin.dev/cost/) – Calculate the true cost of meetings in real-time
+- [Stooge](https://github.com/deanturpin/stooge) – Network traffic replayer with Lua dissector support
+- [idapp](https://idapp.io/) – Multiple platforms song ID app
+- [wavee](https://github.com/deanturpin/wavee) – A music sharing platform with beautiful audio visualisations, focussing on security
 
 ## Active development
 
