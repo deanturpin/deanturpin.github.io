@@ -13,12 +13,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2025-12-31 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-01-01 -->
 
 | Website | Description |
 |-|-|
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-12-31T00:03:03.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2025-12-30T22:43:17.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2025-12-30T00:03:04.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [projects](https://github.com/deanturpin/projects) <sup class="repo-time" data-time="2025-12-18T09:23:43.000Z"></sup> | <a href="https://github.com/deanturpin/projects/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Exploring side hustles with Claude |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2025-12-17T17:39:00.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 | [superdean.com](http://superdean.com/) <sup class="repo-time" data-time="2025-12-16T13:10:23.000Z"></sup> | <a href="https://github.com/deanturpin/superdean.com/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Watchmaking projects and resources |
