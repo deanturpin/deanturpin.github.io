@@ -4,12 +4,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Highlighted projects
 
-- [Meeting Cost Timer](https://turpin.dev/cost/) – Calculate the true cost of meetings in real-time
-- [Stooge](https://github.com/deanturpin/stooge) – Network traffic replayer with Lua dissector support
-- [idapp](https://idapp.io/) – Multiple platforms song ID app
-- [wavee](https://github.com/deanturpin/wavee) – A music sharing platform with beautiful audio visualisations, focussing on security
+- [idapp](https://help.idapp.io/videos) – Multi platform song ID app
+- [stooge](https://hub.docker.com/r/deanturpin/stooge) – Network traffic replayer with Lua dissector support
+- [wavee](https://turpin.cloud/) – A music sharing platform with beautiful audio visualisations, focussing on security
 - [GCC Docker Image](https://hub.docker.com/r/deanturpin/gcc) – Nightly build of GCC from source
 - [EV Myths](https://soloist.ai/evmyths) – Common misconceptions about electric vehicles
+- [Meeting Cost Timer](https://turpin.dev/cost/) – Calculate the true cost of meetings in real-time
 
 ## Active development
 
