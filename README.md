@@ -33,7 +33,6 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-01-11 -->
 - [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
-- [superdean.com](https://superdean.com/) -- watchmaking resources
 
 <!--
 - [cpp.run](https://cpp.run/)
