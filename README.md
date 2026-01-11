@@ -10,6 +10,7 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 - [GCC Docker Image](https://hub.docker.com/r/deanturpin/gcc) – Nightly build of GCC from source
 - [EV Myths](https://soloist.ai/evmyths) – Common misconceptions about electric vehicles
 - [Meeting Cost Timer](https://turpin.dev/cost/) – Calculate the true cost of meetings in real-time
+- [Watchmaking resources](https://turpin.dev/watch/)
 
 ## Active development
 
