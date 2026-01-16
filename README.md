@@ -5,6 +5,7 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 ## Highlighted projects
 
 - [idapp](https://help.idapp.io/videos) – Multi platform song ID app
+- [Low Frequency Trader](https://github.com/deanturpin/lft) – C++ trading strategy backtester and automation platform
 - [stooge](https://hub.docker.com/r/deanturpin/stooge) – Network traffic replayer with Lua dissector support
 - [wavee](https://turpin.cloud/) – A music sharing platform with beautiful audio visualisations, focussing on security
 - [GCC Docker Image](https://hub.docker.com/r/deanturpin/gcc) – Nightly build of GCC from source
