@@ -15,13 +15,13 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-01-17 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-01-18 -->
 
 | Website | Description |
 |-|-|
+| [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-01-17T10:51:47.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-01-17T00:03:01.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [lft](https://github.com/deanturpin/lft) <sup class="repo-time" data-time="2026-01-16T23:20:42.000Z"></sup> | <a href="https://github.com/deanturpin/lft"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Low Frequency Trader |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-01-16T19:42:46.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
-| [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-01-16T15:40:31.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
 | [goblinz](https://github.com/deanturpin/goblinz) <sup class="repo-time" data-time="2026-01-14T18:08:40.000Z"></sup> | <a href="https://github.com/deanturpin/goblinz"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> auv3 monophonic synth |
 | [keyq](https://github.com/deanturpin/keyq) <sup class="repo-time" data-time="2026-01-14T17:24:01.000Z"></sup> | <a href="https://github.com/deanturpin/keyq"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> FFT with notes (AUv3) |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-01-14T09:26:10.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
