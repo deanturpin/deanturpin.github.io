@@ -15,12 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-01-29 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-01-30 -->
 
 | Website | Description |
 |-|-|
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-01-29T00:03:45.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [jira](https://github.com/deanturpin/jira) <sup class="repo-time" data-time="2026-01-28T08:30:21.000Z"></sup> | <a href="https://github.com/deanturpin/jira"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Jira project snapshot: this missing link between dev and project management! |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-01-28T00:02:59.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-01-27T22:38:09.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [lft](https://github.com/deanturpin/lft) <sup class="repo-time" data-time="2026-01-27T22:20:04.000Z"></sup> | <a href="https://github.com/deanturpin/lft/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> Low Frequency Trader |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-01-18T21:15:09.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
