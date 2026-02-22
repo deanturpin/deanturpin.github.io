@@ -57,6 +57,8 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-03-17 -->
 | File operations | Read, Write, Edit, Glob, Grep tools available |
 | Git integration | Auto-commit with 🤖 emoji when appropriate |
 
+Update your [subscription](https://claude.ai/settings/billing).
+
 ### How big a think?
 
 You can make Claude try a bit harder (if you cross his palm with tokens).
