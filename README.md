@@ -15,12 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-03-05 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-03-06 -->
 
 | Website | Description |
 |-|-|
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-03-05T00:05:05.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [lft2](http://turpin.dev/lft2/) <sup class="repo-time" data-time="2026-03-04T20:37:29.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-03-04T00:04:56.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [jira](https://github.com/deanturpin/jira) <sup class="repo-time" data-time="2026-03-03T09:30:17.000Z"></sup> | <a href="https://github.com/deanturpin/jira"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Jira project snapshot: this missing link between dev and project management! |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-02-27T17:06:57.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [lft](https://github.com/deanturpin/lft) <sup class="repo-time" data-time="2026-02-23T21:03:50.000Z"></sup> | <a href="https://github.com/deanturpin/lft/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> Low Frequency Trader |
@@ -28,7 +28,7 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-03-05 -->
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-01-18T21:15:09.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
 | [goblinz](https://github.com/deanturpin/goblinz) <sup class="repo-time" data-time="2026-01-14T18:08:40.000Z"></sup> | <a href="https://github.com/deanturpin/goblinz"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> auv3 monophonic synth |
 | [keyq](https://github.com/deanturpin/keyq) <sup class="repo-time" data-time="2026-01-14T17:24:01.000Z"></sup> | <a href="https://github.com/deanturpin/keyq"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> FFT with notes (AUv3) |
-| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-01-14T09:26:10.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
+| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-01-14T09:26:10.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 
 ## Top level domains
 
