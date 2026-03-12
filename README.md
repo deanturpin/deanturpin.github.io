@@ -15,12 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-03-11 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-03-12 -->
 
 | Website | Description |
 |-|-|
-| [lft2](http://turpin.dev/lft2/) <sup class="repo-time" data-time="2026-03-10T22:14:41.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-03-10T00:03:27.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [lft2](http://turpin.dev/lft2/) <sup class="repo-time" data-time="2026-03-11T19:42:06.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-03-11T00:03:16.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-03-09T13:58:42.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-03-07T00:08:36.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [goblinz](https://github.com/deanturpin/goblinz) <sup class="repo-time" data-time="2026-03-06T01:53:25.000Z"></sup> | <a href="https://github.com/deanturpin/goblinz"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> auv3 monophonic synth |
