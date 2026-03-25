@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
   // Copy static files to output
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/script.js");
-  eleventyConfig.addPassthroughCopy("public/**/*");
+  eleventyConfig.addPassthroughCopy({"public": "."});
 
   // Copy README.md to src directory for processing
   eleventyConfig.addPassthroughCopy({"README.md": "README.md"});
