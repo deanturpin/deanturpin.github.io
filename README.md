@@ -15,11 +15,11 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-03-26 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-03-27 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-03-25T11:14:16.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-03-26T00:07:49.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [lft2](http://deanturpin.github.io/lft2/) <sup class="repo-time" data-time="2026-03-20T05:18:32.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-03-17T09:46:12.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-03-12T09:08:44.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
