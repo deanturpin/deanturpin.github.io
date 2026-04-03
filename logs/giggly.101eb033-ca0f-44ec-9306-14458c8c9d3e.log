@@ -1,0 +1,26 @@
+2026-04-03T17:10:31.393534Z	Cloning repository...
+2026-04-03T17:10:32.534197Z	From https://github.com/deanturpin/giggly
+2026-04-03T17:10:32.534624Z	 * branch            eb7acc16d99e576a3680f85d1d3f98b90568d930 -> FETCH_HEAD
+2026-04-03T17:10:32.534694Z	
+2026-04-03T17:10:32.567359Z	HEAD is now at eb7acc1 Remove wrangler.toml - not needed for Pages project
+2026-04-03T17:10:32.567795Z	
+2026-04-03T17:10:32.612687Z	
+2026-04-03T17:10:32.613192Z	Using v2 root directory strategy
+2026-04-03T17:10:32.626148Z	Success: Finished cloning repository files
+2026-04-03T17:10:34.117588Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-03T17:10:34.118074Z	
+2026-04-03T17:10:35.212748Z	No Wrangler configuration file found. Continuing.
+2026-04-03T17:10:35.213043Z	No build command specified. Skipping build step.
+2026-04-03T17:10:35.21363Z	Found Functions directory at /functions. Uploading.
+2026-04-03T17:10:35.218557Z	 ⛅️ wrangler 3.101.0
+2026-04-03T17:10:35.218724Z	-------------------
+2026-04-03T17:10:36.316194Z	✨ Compiled Worker successfully
+2026-04-03T17:10:37.366809Z	Validating asset output directory
+2026-04-03T17:10:39.757498Z	Deploying your site to Cloudflare's global network...
+2026-04-03T17:10:41.354553Z	Parsed 8 valid header rules.
+2026-04-03T17:10:42.6675Z	Uploading... (19/19)
+2026-04-03T17:10:42.669027Z	✨ Success! Uploaded 0 files (19 already uploaded) (0.47 sec)
+2026-04-03T17:10:42.669161Z	
+2026-04-03T17:10:43.052834Z	✨ Upload complete!
+2026-04-03T17:10:45.498608Z	Success: Assets published!
+2026-04-03T17:10:50.439238Z	Error: Failed to publish your Function. Got error: An unknown error has occurred. If this error persists, please file a report in workers-sdk (https://github.com/cloudflare/workers-sdk/issues) or reach out to your account team.
