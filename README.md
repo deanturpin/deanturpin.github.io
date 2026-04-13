@@ -15,11 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-04-12 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-04-13 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-04-11T00:08:06.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [watch](http://turpin.dev/watch/) <sup class="repo-time" data-time="2026-04-12T14:23:34.000Z"></sup> | <a href="https://github.com/deanturpin/watch/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Watchmaking projects and resources |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-04-12T00:07:56.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-04-03T17:01:05.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-03-27T14:49:40.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
 | [lft2](http://deanturpin.github.io/lft2/) <sup class="repo-time" data-time="2026-03-20T05:18:32.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
@@ -28,7 +29,6 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-04-12 -->
 | [goblinz](https://github.com/deanturpin/goblinz) <sup class="repo-time" data-time="2026-03-06T01:53:25.000Z"></sup> | <a href="https://github.com/deanturpin/goblinz"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> auv3 monophonic synth |
 | [jira](https://github.com/deanturpin/jira) <sup class="repo-time" data-time="2026-03-03T09:30:17.000Z"></sup> | <a href="https://github.com/deanturpin/jira"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Jira project snapshot: this missing link between dev and project management! |
 | [lft](https://github.com/deanturpin/lft) <sup class="repo-time" data-time="2026-02-23T21:03:50.000Z"></sup> | <a href="https://github.com/deanturpin/lft/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> Low Frequency Trader |
-| [keyq](https://github.com/deanturpin/keyq) <sup class="repo-time" data-time="2026-01-14T17:24:01.000Z"></sup> | <a href="https://github.com/deanturpin/keyq"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> FFT with notes (AUv3) |
 
 ## Top level domains
 
