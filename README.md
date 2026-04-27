@@ -35,6 +35,8 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-04-27 -->
 - [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
+- [giggly.uk](https://giggly.uk/) -- event planner
+- [turpin.studio](https://turpin.studio/) -- watchmaking resources
 
 <!--
 - [cpp.run](https://cpp.run/)
