@@ -15,12 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-08-10 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-08-11 -->
 
 | Website | Description |
 |-|-|
-| [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-08-09T13:37:17.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-08-09T00:42:30.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-08-10T20:06:18.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-08-10T00:44:08.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-08-03T12:13:48.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [jira](https://github.com/deanturpin/jira) <sup class="repo-time" data-time="2026-06-30T12:30:43.000Z"></sup> | <a href="https://github.com/deanturpin/jira"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Jira project snapshot: this missing link between dev and project management! |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-04-30T01:58:02.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
