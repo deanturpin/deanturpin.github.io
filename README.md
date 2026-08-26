@@ -15,11 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-08-25 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-08-26 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-08-24T00:30:33.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [gitfs](http://turpin.dev/gitfs/) <sup class="repo-time" data-time="2026-08-25T23:50:18.000Z"></sup> | <a href="https://github.com/deanturpin/gitfs/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Get In The F Sea |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-08-25T00:30:01.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-08-18T10:11:21.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-08-16T12:29:59.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-08-11T19:19:16.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
@@ -28,7 +29,6 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-08-25 -->
 | [lft2](http://deanturpin.github.io/lft2/) <sup class="repo-time" data-time="2026-03-20T05:18:32.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-03-12T09:08:44.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 | [goblinz](https://github.com/deanturpin/goblinz) <sup class="repo-time" data-time="2026-03-06T01:53:25.000Z"></sup> | <a href="https://github.com/deanturpin/goblinz"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> auv3 monophonic synth |
-| [lft](https://github.com/deanturpin/lft) <sup class="repo-time" data-time="2026-02-23T21:03:50.000Z"></sup> | <a href="https://github.com/deanturpin/lft/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a> Low Frequency Trader |
 
 ## Top level domains
 
