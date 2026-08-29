@@ -15,12 +15,12 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-08-28 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-08-29 -->
 
 | Website | Description |
 |-|-|
-| [gitfs](http://turpin.dev/gitfs/) <sup class="repo-time" data-time="2026-08-28T07:11:16.000Z"></sup> | <a href="https://github.com/deanturpin/gitfs/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Get In The F Sea |
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-08-27T05:20:48.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [gitfs](http://turpin.dev/gitfs/) <sup class="repo-time" data-time="2026-08-28T10:26:08.000Z"></sup> | <a href="https://github.com/deanturpin/gitfs/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Get In The F Sea |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-08-28T07:18:31.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [stems](https://github.com/deanturpin/stems) <sup class="repo-time" data-time="2026-08-18T10:11:21.000Z"></sup> | <a href="https://github.com/deanturpin/stems"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Exploring audio stem splitting  |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-08-16T12:29:59.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-08-11T19:19:16.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
