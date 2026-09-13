@@ -4,6 +4,7 @@ Currently reading: [Electronic and Experimental Music: Technology, Music, and Cu
 
 ## Highlighted projects
 
+- [Get In The Sea](https://getinthesea.uk/) – Should I get in the sea? Live sea temperature, waves, wind, tide and water quality for every bathing water in England
 - [Low Frequency Trader](https://lft.turpin.dev/) – C++ trading strategy backtester and automation platform
 - [idapp](https://help.idapp.io/videos) – Multi platform song ID app
 - [stooge](https://hub.docker.com/r/deanturpin/stooge) – Network traffic replayer with Lua dissector support
@@ -37,6 +38,7 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-09-13 -->
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
 - [giggly.uk](https://giggly.uk/) -- event planner
 - [turpin.studio](https://turpin.studio/) -- watchmaking resources
+- [getinthesea.uk](https://getinthesea.uk/) -- should I get in the sea?
 
 <!--
 - [cpp.run](https://cpp.run/)
