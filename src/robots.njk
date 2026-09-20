@@ -1,0 +1,14 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+Allow: /
+
+# The raw markdown the home page is built from, which would otherwise rank as a duplicate
+Disallow: /README.md
+
+# Legacy copy of the meeting cost timer; /cost/ is the one that is maintained
+Disallow: /cost.html
+
+Sitemap: {{ site.url }}/sitemap.xml

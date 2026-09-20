@@ -26,3 +26,17 @@ This is a personal portfolio site built with Astro, deployed to GitHub Pages. Th
 - Inline CSS styling with animated gradient backgrounds and theme switching
 - JavaScript post-processing to style pipeline badges section appropriately
 - Dependencies: Astro framework and `marked` for markdown parsing
+## SEO
+
+- Site-wide metadata lives in `src/_data/site.json` — URL, description, author,
+  profile links and the pages on `turpin.dev` that are deployed from other
+  repositories (`/cost/`, `/watch/`).
+- `src/_layouts/base.njk` renders description, canonical, Open Graph, Twitter
+  card and Person structured data from that file; a page can override the
+  description with `description` in its front matter.
+- `src/sitemap.njk` builds `/sitemap.xml` from everything 11ty writes plus
+  `site.extraPages`. `lastmod` is the build date, not the template mtime,
+  because the home page is regenerated from README.md on every deploy.
+- `src/robots.njk` builds `/robots.txt` and points at the sitemap. It blocks
+  `/README.md` and the legacy `/cost.html`, both duplicates of pages that rank
+  in their own right.

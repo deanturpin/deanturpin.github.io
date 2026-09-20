@@ -1,0 +1,25 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{#- Everything 11ty builds here #}
+{%- for item in collections.all %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    <lastmod>{{ build.date | isoDate }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>{% if item.url == "/" %}1.0{% else %}0.6{% endif %}</priority>
+  </url>
+{%- endfor %}
+{#- Pages on the same domain that are deployed from their own repositories #}
+{%- for item in site.extraPages %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    <lastmod>{{ build.date | isoDate }}</lastmod>
+    <changefreq>{{ item.changefreq }}</changefreq>
+    <priority>{{ item.priority }}</priority>
+  </url>
+{%- endfor %}
+</urlset>

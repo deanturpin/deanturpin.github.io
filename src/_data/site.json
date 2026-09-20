@@ -1,0 +1,19 @@
+{
+  "url": "https://turpin.dev",
+  "title": "Dean Turpin",
+  "description": "Dean Turpin — system architect and team lead. C++, audio and side projects, plus a running list of the sites I build and maintain.",
+  "author": "Dean Turpin",
+  "locale": "en_GB",
+  "sameAs": [
+    "https://github.com/deanturpin",
+    "https://gitlab.com/deanturpin",
+    "https://www.linkedin.com/in/deanturpin",
+    "https://hub.docker.com/u/deanturpin",
+    "https://germs.dev/"
+  ],
+  "extraPages": [
+    { "url": "/cost/", "priority": "0.7", "changefreq": "monthly" },
+    { "url": "/watch/", "priority": "0.7", "changefreq": "monthly" },
+    { "url": "/privacy/tidal.html", "priority": "0.3", "changefreq": "yearly" }
+  ]
+}

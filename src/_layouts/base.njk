@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or "Dean Turpin" }}</title>
+    <title>{{ title or site.title }}</title>
+
+    {# Search and social metadata: page front matter wins, site defaults fill the gaps #}
+    <meta name="description" content="{{ description or site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="{{ site.locale }}">
+    <meta property="og:title" content="{{ title or site.title }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+    {# No artwork to show, so a text-only card rather than a broken image #}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ title or site.title }}">
+    <meta name="twitter:description" content="{{ description or site.description }}">
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="/style.css">
+
+    {# Structured data so search engines tie the domain to a person, not a brand #}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}/",
+      "jobTitle": "System Architect",
+      "description": "{{ site.description }}",
+      "sameAs": [{% for link in site.sameAs %}"{{ link }}"{% if not loop.last %}, {% endif %}{% endfor %}]
+    }
+    </script>
 </head>
 <body>
     <div id="app">

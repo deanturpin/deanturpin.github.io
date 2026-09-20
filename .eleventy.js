@@ -14,6 +14,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("markdown", function(content) {
     return md.render(content);
   });
+  // W3C date for sitemap lastmod stamps
+  eleventyConfig.addFilter("isoDate", function(value) {
+    return new Date(value || Date.now()).toISOString().slice(0, 10);
+  });
+
   // Copy static files to output
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/script.js");
