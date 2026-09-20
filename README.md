@@ -1,6 +1,19 @@
 [GitHub](https://github.com/deanturpin) | [GitLab](https://gitlab.com/deanturpin) | [LinkedIn](https://www.linkedin.com/in/deanturpin) | [Docker hub](https://hub.docker.com/u/deanturpin)
 
-Currently reading: [Electronic and Experimental Music: Technology, Music, and Culture – Thom Holmes](https://www.taylorfrancis.com/books/mono/10.4324/9780203128428/electronic-experimental-music-thom-holmes)
+Currently reading: [The Secrets of Dance Music Production](https://store.attackmagazine.com/products/the-producers-bundle?variant=54802337169783)
+
+## Top level domains
+
+- [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
+- [germs.dev](https://germs.dev/) -- online logbook (since 2009)
+- [turbeaux.uk](https://turbeaux.uk/) -- music resources
+- [tix8.uk](https://tix8.uk/) -- event planner (global)
+- [freeparking.run](https://freeparking.fun/) -- free parking near you (UK)
+- [getinthesea.uk](https://getinthesea.uk/) -- sea swimming companion (UK)
+- [turpin.studio](https://turpin.studio/) -- watchmaking resources
+- [sima.one](https://sima.one/) -- OSM mirror (backend for tix8)
+- [idapp.io](https://idapp.io/) -- music IDs (without Shazam)
+- [isrc.uk](https://isrc.uk/) -- ISRC lookup (music releases)
 
 ## Highlighted projects
 
@@ -30,19 +43,6 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-09-20 -->
 | [watch](http://turpin.dev/watch/) <sup class="repo-time" data-time="2026-04-12T14:23:34.000Z"></sup> | <a href="https://github.com/deanturpin/watch/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Watchmaking projects and resources |
 | [lft2](http://deanturpin.github.io/lft2/) <sup class="repo-time" data-time="2026-03-20T05:18:32.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
 | [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-03-12T09:08:44.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
-
-## Top level domains
-
-- [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
-- [germs.dev](https://germs.dev/) -- online logbook (since 2009)
-- [turbeaux.uk](https://turbeaux.uk/) -- music resources
-- [tix8.uk](https://tix8.uk/) -- event planner (global)
-- [freeparking.run](https://freeparking.fun/) -- free parking near you (UK)
-- [getinthesea.uk](https://getinthesea.uk/) -- sea swimming companion (UK)
-- [turpin.studio](https://turpin.studio/) -- watchmaking resources
-- [sima.one](https://sima.one/) -- OSM mirror (backend for tix8)
-- [idapp.io](https://idapp.io/) -- music IDs (without Shazam)
-- [isrc.uk](https://isrc.uk/) -- ISRC lookup (music releases)
 
 ## Claude Code crib sheet
 
