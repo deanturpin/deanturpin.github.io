@@ -36,13 +36,13 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-09-20 -->
 - [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
-- [giggly.uk](https://giggly.uk/) -- event planner
+- [tix8.uk](https://tix8.uk/) -- event planner (global)
+- [freeparking.run](https://freeparking.fun/) -- free parking near you (UK)
+- [getinthesea.uk](https://getinthesea.uk/) -- sea swimming companion (UK)
 - [turpin.studio](https://turpin.studio/) -- watchmaking resources
-- [getinthesea.uk](https://getinthesea.uk/) -- should I get in the sea?
-
-<!--
-- [cpp.run](https://cpp.run/)
--->
+- [sima.one](https://sima.one/) -- OSM mirror (backend for tix8)
+- [idapp.io](https://idapp.io/) -- music IDs (without Shazam)
+- [isrc.uk](https://isrc.uk/) -- ISRC lookup (music releases)
 
 ## Claude Code crib sheet
 
