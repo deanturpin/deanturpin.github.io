@@ -4,7 +4,6 @@ Currently reading: [The Secrets of Dance Music Production](https://store.attackm
 
 ## Top level domains
 
-- [turpin.dev](https://turpin.dev/) -- landing page for everything (this website)
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
 - [tix8.uk](https://tix8.uk/) -- event planner (global)
@@ -115,7 +114,7 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 
 ## Studio
 
-- Logic Pro 11
+- Logic Pro 12
 - MacBook Air M3
 - Universal Audio Volt 476P Audio Interface
 - BeyerDynamic DT 770 Pro Limited Edition and DT 1770 Pro
@@ -123,6 +122,8 @@ You can put Claude explicitly into read-only mode by typing `/models` and select
 - Arturia MiniLab 3 Midi Controller Keyboard
 - Dean travel guitar
 - Ernie Ball Extra Slinky
+- rekordbox
+- Pioneer DJM-750MK2
 
 ## GitLab Pipes (deprecated)
 
