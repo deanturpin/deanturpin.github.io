@@ -28,11 +28,11 @@ Currently reading: [The Secrets of Dance Music Production](https://store.attackm
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-09-23 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-09-24 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-09-22T02:03:17.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-09-23T02:01:50.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-09-20T15:42:57.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [cost](http://turpin.dev/cost/) <sup class="repo-time" data-time="2026-09-11T11:49:14.000Z"></sup> | <a href="https://github.com/deanturpin/cost/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Web-based meeting cost calculator |
 | [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-08-31T12:31:44.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
