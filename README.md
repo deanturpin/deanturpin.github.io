@@ -9,13 +9,14 @@ Currently reading: [The Secrets of Dance Music Production](https://store.attackm
 - [tix8.uk](https://tix8.uk/) -- event planner (global)
 - [freeparking.run](https://freeparking.fun/) -- free parking near you (UK)
 - [getinthesea.uk](https://getinthesea.uk/) -- sea swimming companion (UK)
-- [turpin.studio](https://turpin.studio/) -- watchmaking resources
+- [turpin.studio](https://turpin.studio/) -- instruments that follow the DJ
 - [sima.one](https://sima.one/) -- OSM mirror (backend for tix8)
 - [idapp.io](https://idapp.io/) -- music IDs (without Shazam)
 - [isrc.uk](https://isrc.uk/) -- ISRC lookup (music releases)
 
 ## Highlighted projects
 
+- [turpin.studio](https://turpin.studio/) – sequent: plugins and a sequencer that lock to your mix, plus free web instruments (303 acid bass, 909-style drums, pads, strings and more) that follow MIDI clock
 - [Get In The Sea](https://getinthesea.uk/) – Should I get in the sea? Live sea temperature, waves, wind, tide and water quality for every bathing water in England
 - [Low Frequency Trader](https://lft.turpin.dev/) – C++ trading strategy backtester and automation platform
 - [idapp](https://help.idapp.io/videos) – Multi platform song ID app
