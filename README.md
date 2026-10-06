@@ -7,7 +7,7 @@ Currently reading: [The Secrets of Dance Music Production](https://store.attackm
 - [germs.dev](https://germs.dev/) -- online logbook (since 2009)
 - [turbeaux.uk](https://turbeaux.uk/) -- music resources
 - [tix8.uk](https://tix8.uk/) -- event planner (global)
-- [freeparking.run](https://freeparking.fun/) -- free parking near you (UK)
+- [freeparking.fun](https://freeparking.fun/) -- free parking near you (UK)
 - [getinthesea.uk](https://getinthesea.uk/) -- sea swimming companion (UK)
 - [turpin.studio](https://turpin.studio/) -- instruments that follow the DJ
 - [sima.one](https://sima.one/) -- OSM mirror (backend for tix8)
