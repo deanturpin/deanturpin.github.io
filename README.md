@@ -29,11 +29,12 @@ Currently reading: [The Secrets of Dance Music Production](https://store.attackm
 
 ## Active development
 
-Top 10 recently updated projects. <!-- Auto-generated on 2026-10-08 -->
+Top 10 recently updated projects. <!-- Auto-generated on 2026-10-09 -->
 
 | Website | Description |
 |-|-|
-| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-10-07T02:55:08.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
+| [gcc](https://hub.docker.com/r/deanturpin/gcc) <sup class="repo-time" data-time="2026-10-08T21:49:30.000Z"></sup> | <a href="https://github.com/deanturpin/gcc/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Nightly build of gcc from source |
+| [deanturpin.github.io](https://github.com/deanturpin/deanturpin.github.io/) <sup class="repo-time" data-time="2026-10-08T03:12:23.000Z"></sup> | <a href="https://github.com/deanturpin/deanturpin.github.io/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> My top level website (turpin.dev) |
 | [turbeaux.uk](https://turbeaux.uk/) <sup class="repo-time" data-time="2026-09-24T17:54:53.000Z"></sup> | <a href="https://github.com/deanturpin/turbeaux.uk/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Live music resources |
 | [germs.dev](http://germs.dev/) <sup class="repo-time" data-time="2026-09-20T15:42:57.000Z"></sup> | <a href="https://github.com/deanturpin/germs.dev/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Online logbook, curated since 2009 |
 | [cost](http://turpin.dev/cost/) <sup class="repo-time" data-time="2026-09-11T11:49:14.000Z"></sup> | <a href="https://github.com/deanturpin/cost/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Web-based meeting cost calculator |
@@ -42,7 +43,6 @@ Top 10 recently updated projects. <!-- Auto-generated on 2026-10-08 -->
 | [jira](https://github.com/deanturpin/jira) <sup class="repo-time" data-time="2026-06-30T12:30:43.000Z"></sup> | <a href="https://github.com/deanturpin/jira"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a> Jira project snapshot: this missing link between dev and project management! |
 | [watch](http://turpin.dev/watch/) <sup class="repo-time" data-time="2026-04-12T14:23:34.000Z"></sup> | <a href="https://github.com/deanturpin/watch/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Watchmaking projects and resources |
 | [lft2](http://deanturpin.github.io/lft2/) <sup class="repo-time" data-time="2026-03-20T05:18:32.000Z"></sup> | <a href="https://github.com/deanturpin/lft2/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> low frequency trader v2 |
-| [stooge](https://github.com/deanturpin/stooge) <sup class="repo-time" data-time="2026-03-12T09:08:44.000Z"></sup> | <a href="https://github.com/deanturpin/stooge/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a> Network traffic replayer with Lua dissector support |
 
 ## Claude Code crib sheet
 
