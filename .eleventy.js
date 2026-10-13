@@ -1,37 +1,18 @@
-const fs = require('fs');
-const path = require('path');
-const markdownIt = require('markdown-it');
-
 module.exports = function(eleventyConfig) {
-  // Set up markdown processor
-  const md = markdownIt({
-    html: true,
-    linkify: true,
-    typographer: true
-  });
-
-  // Add markdown filter
-  eleventyConfig.addFilter("markdown", function(content) {
-    return md.render(content);
-  });
   // W3C date for sitemap lastmod stamps
   eleventyConfig.addFilter("isoDate", function(value) {
     return new Date(value || Date.now()).toISOString().slice(0, 10);
+  });
+
+  // Readable date for the build-time fallback before the browser takes over
+  eleventyConfig.addFilter("shortDate", function(value) {
+    return new Date(value).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
   });
 
   // Copy static files to output
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/script.js");
   eleventyConfig.addPassthroughCopy({"public": "."});
-
-  // Copy README.md to src directory for processing
-  eleventyConfig.addPassthroughCopy({"README.md": "README.md"});
-
-  // Add readFile filter
-  eleventyConfig.addFilter("readFile", function(filename) {
-    const filePath = path.join(process.cwd(), filename);
-    return fs.readFileSync(filePath, 'utf-8');
-  });
 
   // Set directories
   return {

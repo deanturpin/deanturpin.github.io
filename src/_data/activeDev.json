@@ -1,0 +1,82 @@
+[
+  {
+    "name": "deanturpin.github.io",
+    "description": "My top level website (turpin.dev)",
+    "url": "https://github.com/deanturpin/deanturpin.github.io/",
+    "githubUrl": "https://github.com/deanturpin/deanturpin.github.io",
+    "updated": "2026-10-13T04:07:56.000Z",
+    "status": "success"
+  },
+  {
+    "name": "gcc",
+    "description": "Nightly build of gcc from source",
+    "url": "https://hub.docker.com/r/deanturpin/gcc",
+    "githubUrl": "https://github.com/deanturpin/gcc",
+    "updated": "2026-10-08T21:49:30.000Z",
+    "status": "success"
+  },
+  {
+    "name": "turbeaux.uk",
+    "description": "Live music resources",
+    "url": "https://turbeaux.uk/",
+    "githubUrl": "https://github.com/deanturpin/turbeaux.uk",
+    "updated": "2026-09-24T17:54:53.000Z",
+    "status": "success"
+  },
+  {
+    "name": "germs.dev",
+    "description": "Online logbook, curated since 2009",
+    "url": "http://germs.dev/",
+    "githubUrl": "https://github.com/deanturpin/germs.dev",
+    "updated": "2026-09-20T15:42:57.000Z",
+    "status": "success"
+  },
+  {
+    "name": "cost",
+    "description": "Web-based meeting cost calculator",
+    "url": "http://turpin.dev/cost/",
+    "githubUrl": "https://github.com/deanturpin/cost",
+    "updated": "2026-09-11T11:49:14.000Z",
+    "status": "success"
+  },
+  {
+    "name": "gitfs",
+    "description": "Get In The F Sea",
+    "url": "http://turpin.dev/gitfs/",
+    "githubUrl": "https://github.com/deanturpin/gitfs",
+    "updated": "2026-08-28T10:26:08.000Z",
+    "status": "success"
+  },
+  {
+    "name": "stems",
+    "description": "Exploring audio stem splitting",
+    "url": "https://github.com/deanturpin/stems",
+    "githubUrl": "https://github.com/deanturpin/stems",
+    "updated": "2026-08-18T10:11:21.000Z",
+    "status": "none"
+  },
+  {
+    "name": "jira",
+    "description": "Jira project snapshot: this missing link between dev and project management!",
+    "url": "https://github.com/deanturpin/jira",
+    "githubUrl": "https://github.com/deanturpin/jira",
+    "updated": "2026-06-30T12:30:43.000Z",
+    "status": "none"
+  },
+  {
+    "name": "watch",
+    "description": "Watchmaking projects and resources",
+    "url": "http://turpin.dev/watch/",
+    "githubUrl": "https://github.com/deanturpin/watch",
+    "updated": "2026-04-12T14:23:34.000Z",
+    "status": "success"
+  },
+  {
+    "name": "lft2",
+    "description": "low frequency trader v2",
+    "url": "http://deanturpin.github.io/lft2/",
+    "githubUrl": "https://github.com/deanturpin/lft2",
+    "updated": "2026-03-20T05:18:32.000Z",
+    "status": "success"
+  }
+]

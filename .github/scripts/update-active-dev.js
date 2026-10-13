@@ -87,87 +87,28 @@ async function getTopRepos() {
   return enriched;
 }
 
-function getRelativeTime(dateString) {
-  const now = new Date();
-  const then = new Date(dateString);
-  const diffMs = now - then;
-  const diffSec = Math.floor(diffMs / 1000);
-  const diffMin = Math.floor(diffSec / 60);
-  const diffHour = Math.floor(diffMin / 60);
-  const diffDay = Math.floor(diffHour / 24);
-  const diffWeek = Math.floor(diffDay / 7);
-  const diffMonth = Math.floor(diffDay / 30);
-  const diffYear = Math.floor(diffDay / 365);
+// The home page renders this file; relative times are worked out in the
+// browser so they stay true between daily builds
+const DATA_PATH = 'src/_data/activeDev.json';
 
-  if (diffYear > 0) return `${diffYear} year${diffYear > 1 ? 's' : ''} ago`;
-  if (diffMonth > 0) return `${diffMonth} month${diffMonth > 1 ? 's' : ''} ago`;
-  if (diffWeek > 0) return `${diffWeek} week${diffWeek > 1 ? 's' : ''} ago`;
-  if (diffDay > 0) return `${diffDay} day${diffDay > 1 ? 's' : ''} ago`;
-  if (diffHour > 0) return `${diffHour} hour${diffHour > 1 ? 's' : ''} ago`;
-  if (diffMin > 0) return `${diffMin} minute${diffMin > 1 ? 's' : ''} ago`;
-  return 'just now';
-}
-
-function generateMarkdownTable(repos) {
-  const timestamp = new Date().toISOString().split('T')[0];
-
-  let markdown = '## Active development\n\n';
-  markdown += `Top ${repos.length} recently updated projects. <!-- Auto-generated on ${timestamp} -->\n\n`;
-  markdown += '| Website | Description |\n';
-  markdown += '|-|-|\n';
-
-  for (const repo of repos) {
-    // Store ISO timestamp for client-side relative time calculation
-    const timestamp = new Date(repo.updated).toISOString();
-    const title = `[${repo.name}](${repo.url}) <sup class="repo-time" data-time="${timestamp}"></sup>`;
-
-    // Generate badge based on actual workflow status
-    // Use HTML img tag to ensure inline display
-    let badge;
-    if (repo.workflowStatus === 'success') {
-      badge = `<a href="${repo.githubUrl}/actions"><img src="https://img.shields.io/badge/✓-28a745?style=flat-square&logo=github&logoColor=white" alt="✓" style="display:inline;vertical-align:middle;"></a>`;
-    } else if (repo.workflowStatus === 'failure') {
-      badge = `<a href="${repo.githubUrl}/actions"><img src="https://img.shields.io/badge/✗-dc3545?style=flat-square&logo=github&logoColor=white" alt="✗" style="display:inline;vertical-align:middle;"></a>`;
-    } else {
-      // No workflow or other status
-      badge = `<a href="${repo.githubUrl}"><img src="https://img.shields.io/badge/→-6c757d?style=flat-square&logo=github&logoColor=white" alt="→" style="display:inline;vertical-align:middle;"></a>`;
-    }
-
-    // Put badge before description
-    const description = `${badge} ${repo.description}`;
-
-    markdown += `| ${title} | ${description} |\n`;
-  }
-
-  return markdown;
-}
-
-function updateReadme(newSection) {
-  const readmePath = 'README.md';
-  const content = fs.readFileSync(readmePath, 'utf8');
-
-  // Find the Active development section and replace it
-  // Match from "## Active development" to the next "##" heading
-  const regex = /## Active development[\s\S]*?(?=\n## )/;
-
-  if (!regex.test(content)) {
-    console.error('Could not find Active development section in README.md');
-    process.exit(1);
-  }
-
-  const updatedContent = content.replace(regex, newSection);
-  fs.writeFileSync(readmePath, updatedContent, 'utf8');
-
-  console.log('README.md updated successfully');
+function toData(repos) {
+  return repos.map(repo => ({
+    name: repo.name,
+    description: repo.description.trim(),
+    url: repo.url,
+    githubUrl: repo.githubUrl,
+    updated: new Date(repo.updated).toISOString(),
+    status: repo.workflowStatus || 'none'
+  }));
 }
 
 async function main() {
   try {
     const repos = await getTopRepos();
-    const markdownTable = generateMarkdownTable(repos);
-    updateReadme(markdownTable);
+    fs.writeFileSync(DATA_PATH, JSON.stringify(toData(repos), null, 2) + '\n', 'utf8');
+    console.log(`${DATA_PATH} updated successfully`);
   } catch (error) {
-    console.error('Error updating README:', error);
+    console.error('Error updating active development data:', error);
     process.exit(1);
   }
 }

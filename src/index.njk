@@ -3,8 +3,181 @@ layout: base.njk
 title: Dean Turpin
 ---
 
-<h1>Dean Turpin</h1>
+{# The opening: the name huge, beside a board of every domain I run #}
+<header class="hero">
+  <div class="hero-text">
+    {# Level meter that bounces gently, the favicon brought to life #}
+    <div class="meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <h1>Dean<br>Turpin</h1>
+    <p class="tagline">C++, audio and far too many domains.</p>
+    <p class="lede">System architect and team lead. Off the clock I build instruments that follow the DJ, sea conditions for swimmers, trading backtesters and the odd network tool.</p>
+    <p class="links">
+      <a class="button" href="https://github.com/deanturpin">GitHub</a>
+      <a class="button secondary" href="https://gitlab.com/deanturpin">GitLab</a>
+      <a class="button secondary" href="https://www.linkedin.com/in/deanturpin">LinkedIn</a>
+      <a class="button secondary" href="https://hub.docker.com/u/deanturpin">Docker Hub</a>
+    </p>
+    <p class="pill"><span>Reading</span> <a href="https://store.attackmagazine.com/products/the-producers-bundle?variant=54802337169783">The Secrets of Dance Music Production</a></p>
+  </div>
 
-<div class="build-timestamp">{{ page.date }}</div>
+  <nav class="board" aria-label="Top level domains">
+    <h2>Top level domains</h2>
+    <ol>
+      <li><a href="https://turpin.studio/"><b>turpin.studio</b><span>instruments that follow the DJ</span></a></li>
+      <li><a href="https://getinthesea.uk/"><b>getinthesea.uk</b><span>sea swimming companion</span></a></li>
+      <li><a href="https://freeparking.fun/"><b>freeparking.fun</b><span>free parking near you</span></a></li>
+      <li><a href="https://tix8.uk/"><b>tix8.uk</b><span>event planner</span></a></li>
+      <li><a href="https://turbeaux.uk/"><b>turbeaux.uk</b><span>music resources</span></a></li>
+      <li><a href="https://germs.dev/"><b>germs.dev</b><span>online logbook since 2009</span></a></li>
+      <li><a href="https://idapp.io/"><b>idapp.io</b><span>music IDs without Shazam</span></a></li>
+      <li><a href="https://isrc.uk/"><b>isrc.uk</b><span>ISRC lookup</span></a></li>
+      <li><a href="https://sima.one/"><b>sima.one</b><span>OSM mirror behind tix8</span></a></li>
+    </ol>
+  </nav>
+</header>
 
-{{ "README.md" | readFile | markdown | safe }}
+<main>
+  {# True figures, large, as the rhythm between the opening and the detail #}
+  <section class="figures" aria-label="In numbers">
+    <div><b>9</b><span>top level domains, and counting</span></div>
+    <div><b>2009</b><span>the year germs.dev started logging</span></div>
+    {#- Repositories without a workflow have no build to count #}
+    {%- set ci = { passing: 0, total: 0 } %}
+    {%- for repo in activeDev %}{% if repo.status != "none" %}
+      {%- set ci = { passing: ci.passing + (1 if repo.status == "success" else 0), total: ci.total + 1 } %}
+    {%- endif %}{% endfor %}
+    <div><b>{{ ci.passing }}/{{ ci.total }}</b><span>builds green across the latest repositories</span></div>
+    <div><b>24</b><span>GitLab pipelines, now retired</span></div>
+  </section>
+
+  <h2 class="section-title" id="highlights">Highlights</h2>
+
+  {# Cards of different widths, alternating, with the flagship dark across the top #}
+  <div class="features">
+    <article class="feature dark">
+      <p class="kicker">turpin.studio</p>
+      <h3><a href="https://turpin.studio/">Sequent</a></h3>
+      <p>Plugins and a sequencer that lock to your mix, plus free web instruments that follow MIDI clock: 303 acid bass, 909-style drums, pads, strings and more.</p>
+      <p class="tags"><span>303</span><span>909</span><span>MIDI clock</span><span>Plugins</span></p>
+    </article>
+
+    <article class="feature wide">
+      <p class="kicker">getinthesea.uk</p>
+      <h3><a href="https://getinthesea.uk/">Get In The Sea</a></h3>
+      <p>Should I get in the sea? Live sea temperature, waves, wind, tide and water quality for every bathing water in England.</p>
+    </article>
+
+    <article class="feature">
+      <p class="kicker">lft.turpin.dev</p>
+      <h3><a href="https://lft.turpin.dev/">Low Frequency Trader</a></h3>
+      <p>C++ trading strategy backtester and automation platform.</p>
+    </article>
+
+    <article class="feature">
+      <p class="kicker">idapp.io</p>
+      <h3><a href="https://help.idapp.io/videos">idapp</a></h3>
+      <p>Multi-platform song ID app.</p>
+    </article>
+
+    <article class="feature">
+      <p class="kicker">Docker Hub</p>
+      <h3><a href="https://hub.docker.com/r/deanturpin/stooge">stooge</a></h3>
+      <p>Network traffic replayer with Lua dissector support.</p>
+    </article>
+
+    <article class="feature">
+      <p class="kicker">turpin.cloud</p>
+      <h3><a href="https://turpin.cloud/">wavee</a></h3>
+      <p>Music sharing with beautiful audio visualisations, built security first.</p>
+    </article>
+
+    <article class="feature wide">
+      <p class="kicker">Docker Hub</p>
+      <h3><a href="https://hub.docker.com/r/deanturpin/gcc">GCC, nightly</a></h3>
+      <p>GCC built from source every night, so the newest C++ is always one <code>docker pull</code> away.</p>
+    </article>
+
+    <article class="feature">
+      <p class="kicker">soloist.ai</p>
+      <h3><a href="https://soloist.ai/evmyths">EV Myths</a></h3>
+      <p>Common misconceptions about electric vehicles.</p>
+    </article>
+
+    <article class="feature">
+      <p class="kicker">turpin.dev/cost</p>
+      <h3><a href="/cost/">Meeting Cost Timer</a></h3>
+      <p>The true cost of a meeting, ticking up in real time.</p>
+    </article>
+
+    <article class="feature wide">
+      <p class="kicker">turpin.dev/watch</p>
+      <h3><a href="/watch/">Watchmaking</a></h3>
+      <p>Watchmaking projects and resources.</p>
+    </article>
+  </div>
+
+  {# Rebuilt daily from the GitHub API by .github/scripts/update-active-dev.js #}
+  <section class="panel" aria-labelledby="active">
+    <div class="panel-head">
+      <h2 class="section-title" id="active">Active development</h2>
+      <p class="small">The ten most recently pushed repositories, refreshed daily.</p>
+    </div>
+    <ul class="repos">
+      {%- for repo in activeDev %}
+      <li>
+        <a class="status {{ repo.status }}" href="{{ repo.githubUrl }}{% if repo.status != 'none' %}/actions{% endif %}"
+           title="{{ 'Build passing' if repo.status == 'success' else ('Build failing' if repo.status == 'failure' else 'No workflow') }}">
+          <span class="visually-hidden">{{ 'Build passing' if repo.status == 'success' else ('Build failing' if repo.status == 'failure' else 'No workflow') }}</span>
+        </a>
+        <a class="repo-name" href="{{ repo.url }}">{{ repo.name }}</a>
+        <span class="repo-desc">{{ repo.description }}</span>
+        <time class="repo-time" datetime="{{ repo.updated }}">{{ repo.updated | shortDate }}</time>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <h2 class="section-title" id="archive">Back catalogue</h2>
+  <ul class="archive">
+    <li><a href="https://hub.docker.com/r/deanturpin/shh"><b>shh</b><span>Command line packet inspector</span></a></li>
+    <li><a href="https://hub.docker.com/r/deanturpin/asterisk"><b>asterisk</b><span>Asterisk container</span></a></li>
+    <li><a href="https://hub.docker.com/r/deanturpin/dev"><b>dev</b><span>C++ dev container</span></a></li>
+    <li><a href="https://deanturpin.gitlab.io/constd/"><b>constd</b><span><code>constexpr</code> Standard Library functions</span></a></li>
+    <li><a href="https://deanturpin.gitlab.io/backtest/"><b>Backtest 2024</b><span>Stock trading backtester</span></a></li>
+    <li><a href="https://germs-dev.gitlab.io/concurrency-support-library/"><b>std::thread</b><span>C++ Concurrency Support Library</span></a></li>
+    <li><a href="https://germs-dev.gitlab.io/dft/"><b>The Plotting Parlour</b><span>Discrete Fourier transforms</span></a></li>
+    <li><a href="https://germs-dev.gitlab.io/cpp/"><b>C++ recipes</b><span>Idioms and good practice</span></a></li>
+    <li><a href="https://germs-dev.gitlab.io/cs/"><b>Learn C++ in 45 years</b><span>Survival guide for C++ and Linux devs</span></a></li>
+    <li><a href="/brighton/"><b>Out and about in Brighton</b><span>Things to see and do</span></a></li>
+    <li><a href="/meta/"><b>Meta and privacy</b><span>And how to leave it</span></a></li>
+  </ul>
+
+  {# The second dark block bookends the page with the kit behind the music projects #}
+  <section class="studio" aria-labelledby="studio">
+    <div>
+      <h2 id="studio">In the studio</h2>
+      <p>The kit behind turpin.studio and the DJ sets.</p>
+    </div>
+    <ul>
+      <li>Logic Pro 12</li>
+      <li>rekordbox</li>
+      <li>Pioneer DJM-750MK2</li>
+      <li>Roland TB-03</li>
+      <li>Universal Audio Volt 476P</li>
+      <li>Arturia MiniLab 3</li>
+      <li>Beyerdynamic DT 770 Pro and DT 1770 Pro</li>
+      <li>MacBook Air M3</li>
+      <li>Dean travel guitar, Ernie Ball Extra Slinky</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://github.com/deanturpin">GitHub</a> ·
+      <a href="https://gitlab.com/deanturpin">GitLab</a> ·
+      <a href="https://www.linkedin.com/in/deanturpin">LinkedIn</a> ·
+      <a href="https://hub.docker.com/u/deanturpin">Docker Hub</a>
+    </p>
+    <p class="small">Built <time datetime="{{ build.date }}">{{ build.date | shortDate }}</time> from <a href="https://github.com/deanturpin/deanturpin.github.io">deanturpin.github.io</a>.</p>
+  </footer>
+</main>
