@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {# Every link opens in a new tab; browsers apply noopener to these by default #}
+    <base target="_blank">
     <title>{{ title or site.title }}</title>
 
     {# Search and social metadata: page front matter wins, site defaults fill the gaps #}
