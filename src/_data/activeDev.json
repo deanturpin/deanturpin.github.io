@@ -1,10 +1,18 @@
 [
   {
+    "name": "lft2",
+    "description": "low frequency trader v2",
+    "url": "http://deanturpin.github.io/lft2/",
+    "githubUrl": "https://github.com/deanturpin/lft2",
+    "updated": "2026-10-13T20:10:24.000Z",
+    "status": "success"
+  },
+  {
     "name": "deanturpin.github.io",
     "description": "My top level website (turpin.dev)",
     "url": "https://github.com/deanturpin/deanturpin.github.io/",
     "githubUrl": "https://github.com/deanturpin/deanturpin.github.io",
-    "updated": "2026-10-13T19:42:57.000Z",
+    "updated": "2026-10-13T19:44:40.000Z",
     "status": "success"
   },
   {
@@ -69,14 +77,6 @@
     "url": "http://turpin.dev/watch/",
     "githubUrl": "https://github.com/deanturpin/watch",
     "updated": "2026-04-12T14:23:34.000Z",
-    "status": "success"
-  },
-  {
-    "name": "lft2",
-    "description": "low frequency trader v2",
-    "url": "http://deanturpin.github.io/lft2/",
-    "githubUrl": "https://github.com/deanturpin/lft2",
-    "updated": "2026-03-20T05:18:32.000Z",
     "status": "success"
   }
 ]
