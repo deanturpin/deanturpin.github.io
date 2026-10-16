@@ -1,0 +1,61 @@
+---
+permalink: /sw.js
+eleventyExcludeFromCollections: true
+---
+// Keeps the home page working offline. The cache is named after the build,
+// so each deploy starts a fresh one and the old one is cleared out.
+const CACHE = 'turpin-dev-{{ build.date }}';
+
+// The page and everything it needs to render
+const SHELL = [
+  '/',
+  '/style.css',
+  '/script.js',
+  '/favicon.svg',
+  '/fonts/oswald.woff2',
+  '/manifest.webmanifest',
+];
+
+// Other projects are deployed under this domain from their own repositories
+// (/cost/, /watch/ and the like), so only this site's own files are handled;
+// every other request goes straight to the network untouched.
+const ours = (url) =>
+  url.origin === location.origin &&
+  (SHELL.includes(url.pathname) || url.pathname.startsWith('/icons/'));
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys()
+      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))))
+      .then(() => self.clients.claim()),
+  );
+});
+
+self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+  if (event.request.method !== 'GET' || !ours(url)) return;
+
+  // The page changes daily with the active development list, so try the
+  // network first and fall back to the copy from the last visit
+  if (url.pathname === '/') {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE).then((cache) => cache.put('/', copy));
+          return response;
+        })
+        .catch(() => caches.match('/')),
+    );
+    return;
+  }
+
+  // Styles, script, fonts and icons only change with a deploy, which brings
+  // a new cache, so the cached copy is always current
+  event.respondWith(caches.match(event.request).then((hit) => hit ?? fetch(event.request)));
+});

@@ -23,6 +23,13 @@ A personal portfolio site built with 11ty and deployed to GitHub Pages at
   it and the deploy workflow refreshes it before each build. `src/script.js`
   turns the build-time dates into relative times in the browser
 - **Static assets** in `public/` are copied to the site root
+- **PWA** - `src/manifest.njk` builds `/manifest.webmanifest`; icons live in
+  `public/icons/` (PNGs rendered from `favicon.svg` and `maskable.svg` with
+  ImageMagick). `src/sw.njk` builds `/sw.js`, which caches the home page
+  network-first and its assets cache-first, under a cache named after the
+  build. It only handles this site's own files: `/cost/`, `/watch/` and
+  anything else on the domain is deployed from other repositories and must
+  pass straight through
 
 ## SEO
 

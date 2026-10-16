@@ -21,3 +21,8 @@ document.querySelectorAll('.repo-time').forEach(el => {
   el.title = el.textContent;
   el.textContent = relativeTime(el.getAttribute('datetime'));
 });
+
+// Offline support and installability; browsers without service workers just
+// load the page as before
+if ('serviceWorker' in navigator)
+  navigator.serviceWorker.register('/sw.js');
