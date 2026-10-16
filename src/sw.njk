@@ -4,13 +4,13 @@ eleventyExcludeFromCollections: true
 ---
 // Keeps the home page working offline. The cache is named after the build,
 // so each deploy starts a fresh one and the old one is cleared out.
-const CACHE = 'turpin-dev-{{ build.date }}';
+const CACHE = 'turpin-dev-{{ build.version }}';
 
 // The page and everything it needs to render
 const SHELL = [
   '/',
-  '/style.css',
-  '/script.js',
+  '/style.css?v={{ build.version }}',
+  '/script.js?v={{ build.version }}',
   '/favicon.svg',
   '/fonts/oswald.woff2',
   '/manifest.webmanifest',
@@ -21,7 +21,7 @@ const SHELL = [
 // every other request goes straight to the network untouched.
 const ours = (url) =>
   url.origin === location.origin &&
-  (SHELL.includes(url.pathname) || url.pathname.startsWith('/icons/'));
+  (SHELL.includes(url.pathname + url.search) || url.pathname.startsWith('/icons/'));
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));

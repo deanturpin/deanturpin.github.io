@@ -27,7 +27,10 @@ A personal portfolio site built with 11ty and deployed to GitHub Pages at
   `public/icons/` (PNGs rendered from `favicon.svg` and `maskable.svg` with
   ImageMagick). `src/sw.njk` builds `/sw.js`, which caches the home page
   network-first and its assets cache-first, under a cache named after the
-  build. It only handles this site's own files: `/cost/`, `/watch/` and
+  build. Cloudflare caches assets for hours, so `style.css` and `script.js`
+  are linked with `?v=` and the build version (`src/_data/build.js`); keep
+  any new asset links versioned the same way. The worker only handles this
+  site's own files: `/cost/`, `/watch/` and
   anything else on the domain is deployed from other repositories and must
   pass straight through
 
