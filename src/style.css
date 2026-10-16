@@ -110,14 +110,14 @@ code { font: 0.85em var(--mono); background: var(--surface-0); padding: 1px 5px;
   .meter i:nth-child(odd) { transform: scaleY(0.6); }
 }
 
-.links { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 0; }
+/* Profile links: small, quiet and all alike, so none outranks the others. */
+.links { display: flex; flex-wrap: wrap; gap: 6px; margin: 20px 0 0; }
 .button {
-  display: inline-block; text-decoration: none; font-weight: 600; font-size: 15px;
-  color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 10px; padding: 9px 18px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: inline-block; text-decoration: none; font-size: 13px; font-weight: 500;
+  color: var(--ink-2); background: var(--surface-1); border: 1px solid var(--line); border-radius: 999px; padding: 3px 11px;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
-.button.secondary { color: var(--ink); background: var(--surface-1); border-color: var(--line); }
-.button:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); }
+.button:hover { color: var(--accent); border-color: var(--accent); }
 
 .pill {
   display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 6px; margin: 20px 0 0; padding: 7px 16px;
