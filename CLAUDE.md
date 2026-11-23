@@ -15,7 +15,7 @@ A personal portfolio site built with 11ty and deployed to GitHub Pages at
 
 - **Hand-written HTML** - `src/index.njk` is the home page; content is edited
   there directly, not generated from README.md
-- **Styling** - `src/style.css`, following the Sauna site's look: Oswald
+- **Styling** - `src/style.css`, with an Oswald
   display face (`public/fonts/`), warm surfaces, orange accent, light and dark
   themes from `prefers-color-scheme` or `data-theme`
 - **Active development** - `.github/scripts/update-active-dev.js` writes
