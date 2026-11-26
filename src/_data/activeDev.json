@@ -21,7 +21,7 @@
     "url": "https://hub.docker.com/r/deanturpin/gcc",
     "githubUrl": "https://github.com/deanturpin/gcc",
     "updated": "2026-10-08T21:49:30.000Z",
-    "status": "success"
+    "status": "failure"
   },
   {
     "name": "cost",
